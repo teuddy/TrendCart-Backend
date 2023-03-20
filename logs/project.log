@@ -1,0 +1,698 @@
+2023-03-20 13:52:37 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-20 13:54:13 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-20 13:54:13 INFO  MongoDB connection with retry 
+2023-03-20 13:54:13 INFO  MongoDB is connected 
+2023-03-20 13:54:38 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-20 13:54:38 INFO  MongoDB connection with retry 
+2023-03-20 13:54:38 INFO  MongoDB is connected 
+2023-03-20 13:54:38 INFO  Server is up on port: 8080 
+2023-03-20 13:57:37 INFO  The Backend is Running on this config:{"environment":"staging","port":"3000","database":{}} 
+2023-03-20 13:57:37 INFO  MongoDB connection with retry 
+2023-03-20 13:57:37 ERROR MongoDB connection unsuccessful, retry after 2 seconds.The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+{}
+MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at Connection.openUri (/usr/src/app/node_modules/mongoose/lib/connection.js:684:11)
+    at /usr/src/app/node_modules/mongoose/lib/index.js:329:10
+    at /usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/usr/src/app/node_modules/mongoose/lib/index.js:1150:10)
+    at Mongoose.connect (/usr/src/app/node_modules/mongoose/lib/index.js:328:20)
+    at connectWithRetry (/usr/src/app/db/index.js:18:8)
+    at exports.connect (/usr/src/app/db/index.js:28:3)
+    at Object.<anonymous> (/usr/src/app/server.js:24:4) 
+2023-03-20 13:57:39 INFO  MongoDB connection with retry 
+2023-03-20 13:57:39 ERROR MongoDB connection unsuccessful, retry after 2 seconds.The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+{}
+MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at Connection.openUri (/usr/src/app/node_modules/mongoose/lib/connection.js:684:11)
+    at /usr/src/app/node_modules/mongoose/lib/index.js:329:10
+    at /usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/usr/src/app/node_modules/mongoose/lib/index.js:1150:10)
+    at Mongoose.connect (/usr/src/app/node_modules/mongoose/lib/index.js:328:20)
+    at Timeout.connectWithRetry [as _onTimeout] (/usr/src/app/db/index.js:18:8)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7) 
+2023-03-20 13:57:41 INFO  MongoDB connection with retry 
+2023-03-20 13:57:41 ERROR MongoDB connection unsuccessful, retry after 2 seconds.The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+{}
+MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at Connection.openUri (/usr/src/app/node_modules/mongoose/lib/connection.js:684:11)
+    at /usr/src/app/node_modules/mongoose/lib/index.js:329:10
+    at /usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/usr/src/app/node_modules/mongoose/lib/index.js:1150:10)
+    at Mongoose.connect (/usr/src/app/node_modules/mongoose/lib/index.js:328:20)
+    at Timeout.connectWithRetry [as _onTimeout] (/usr/src/app/db/index.js:18:8)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7) 
+2023-03-20 13:57:43 INFO  MongoDB connection with retry 
+2023-03-20 13:57:43 ERROR MongoDB connection unsuccessful, retry after 2 seconds.The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+{}
+MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at Connection.openUri (/usr/src/app/node_modules/mongoose/lib/connection.js:684:11)
+    at /usr/src/app/node_modules/mongoose/lib/index.js:329:10
+    at /usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/usr/src/app/node_modules/mongoose/lib/index.js:1150:10)
+    at Mongoose.connect (/usr/src/app/node_modules/mongoose/lib/index.js:328:20)
+    at Timeout.connectWithRetry [as _onTimeout] (/usr/src/app/db/index.js:18:8)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7) 
+2023-03-20 13:57:45 INFO  MongoDB connection with retry 
+2023-03-20 13:57:45 ERROR MongoDB connection unsuccessful, retry after 2 seconds.The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+{}
+MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at Connection.openUri (/usr/src/app/node_modules/mongoose/lib/connection.js:684:11)
+    at /usr/src/app/node_modules/mongoose/lib/index.js:329:10
+    at /usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/usr/src/app/node_modules/mongoose/lib/index.js:1150:10)
+    at Mongoose.connect (/usr/src/app/node_modules/mongoose/lib/index.js:328:20)
+    at Timeout.connectWithRetry [as _onTimeout] (/usr/src/app/db/index.js:18:8)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7) 
+2023-03-20 13:57:47 INFO  MongoDB connection with retry 
+2023-03-20 13:57:47 ERROR MongoDB connection unsuccessful, retry after 2 seconds.The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+{}
+MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at Connection.openUri (/usr/src/app/node_modules/mongoose/lib/connection.js:684:11)
+    at /usr/src/app/node_modules/mongoose/lib/index.js:329:10
+    at /usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/usr/src/app/node_modules/mongoose/lib/index.js:1150:10)
+    at Mongoose.connect (/usr/src/app/node_modules/mongoose/lib/index.js:328:20)
+    at Timeout.connectWithRetry [as _onTimeout] (/usr/src/app/db/index.js:18:8)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7) 
+2023-03-20 13:57:49 INFO  MongoDB connection with retry 
+2023-03-20 13:57:49 ERROR MongoDB connection unsuccessful, retry after 2 seconds.The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+{}
+MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at Connection.openUri (/usr/src/app/node_modules/mongoose/lib/connection.js:684:11)
+    at /usr/src/app/node_modules/mongoose/lib/index.js:329:10
+    at /usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/usr/src/app/node_modules/mongoose/lib/index.js:1150:10)
+    at Mongoose.connect (/usr/src/app/node_modules/mongoose/lib/index.js:328:20)
+    at Timeout.connectWithRetry [as _onTimeout] (/usr/src/app/db/index.js:18:8)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7) 
+2023-03-20 13:57:51 INFO  MongoDB connection with retry 
+2023-03-20 13:57:51 ERROR MongoDB connection unsuccessful, retry after 2 seconds.The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+{}
+MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at Connection.openUri (/usr/src/app/node_modules/mongoose/lib/connection.js:684:11)
+    at /usr/src/app/node_modules/mongoose/lib/index.js:329:10
+    at /usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/usr/src/app/node_modules/mongoose/lib/index.js:1150:10)
+    at Mongoose.connect (/usr/src/app/node_modules/mongoose/lib/index.js:328:20)
+    at Timeout.connectWithRetry [as _onTimeout] (/usr/src/app/db/index.js:18:8)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7) 
+2023-03-20 13:57:53 INFO  MongoDB connection with retry 
+2023-03-20 13:57:53 ERROR MongoDB connection unsuccessful, retry after 2 seconds.The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+{}
+MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at Connection.openUri (/usr/src/app/node_modules/mongoose/lib/connection.js:684:11)
+    at /usr/src/app/node_modules/mongoose/lib/index.js:329:10
+    at /usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/usr/src/app/node_modules/mongoose/lib/index.js:1150:10)
+    at Mongoose.connect (/usr/src/app/node_modules/mongoose/lib/index.js:328:20)
+    at Timeout.connectWithRetry [as _onTimeout] (/usr/src/app/db/index.js:18:8)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7) 
+2023-03-20 13:57:55 INFO  MongoDB connection with retry 
+2023-03-20 13:57:55 ERROR MongoDB connection unsuccessful, retry after 2 seconds.The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+{}
+MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at Connection.openUri (/usr/src/app/node_modules/mongoose/lib/connection.js:684:11)
+    at /usr/src/app/node_modules/mongoose/lib/index.js:329:10
+    at /usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/usr/src/app/node_modules/mongoose/lib/index.js:1150:10)
+    at Mongoose.connect (/usr/src/app/node_modules/mongoose/lib/index.js:328:20)
+    at Timeout.connectWithRetry [as _onTimeout] (/usr/src/app/db/index.js:18:8)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7) 
+2023-03-20 13:57:57 INFO  The Backend is Running on this config:{"environment":"staging","port":"4000","database":{}} 
+2023-03-20 13:57:57 INFO  MongoDB connection with retry 
+2023-03-20 13:57:57 ERROR MongoDB connection unsuccessful, retry after 2 seconds.The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+{}
+MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at Connection.openUri (/usr/src/app/node_modules/mongoose/lib/connection.js:684:11)
+    at /usr/src/app/node_modules/mongoose/lib/index.js:329:10
+    at /usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/usr/src/app/node_modules/mongoose/lib/index.js:1150:10)
+    at Mongoose.connect (/usr/src/app/node_modules/mongoose/lib/index.js:328:20)
+    at connectWithRetry (/usr/src/app/db/index.js:18:8)
+    at exports.connect (/usr/src/app/db/index.js:28:3)
+    at Object.<anonymous> (/usr/src/app/server.js:24:4) 
+2023-03-20 13:57:59 INFO  MongoDB connection with retry 
+2023-03-20 13:57:59 ERROR MongoDB connection unsuccessful, retry after 2 seconds.The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+{}
+MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at Connection.openUri (/usr/src/app/node_modules/mongoose/lib/connection.js:684:11)
+    at /usr/src/app/node_modules/mongoose/lib/index.js:329:10
+    at /usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/usr/src/app/node_modules/mongoose/lib/index.js:1150:10)
+    at Mongoose.connect (/usr/src/app/node_modules/mongoose/lib/index.js:328:20)
+    at Timeout.connectWithRetry [as _onTimeout] (/usr/src/app/db/index.js:18:8)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7) 
+2023-03-20 13:58:01 INFO  MongoDB connection with retry 
+2023-03-20 13:58:01 ERROR MongoDB connection unsuccessful, retry after 2 seconds.The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+{}
+MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at Connection.openUri (/usr/src/app/node_modules/mongoose/lib/connection.js:684:11)
+    at /usr/src/app/node_modules/mongoose/lib/index.js:329:10
+    at /usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/usr/src/app/node_modules/mongoose/lib/index.js:1150:10)
+    at Mongoose.connect (/usr/src/app/node_modules/mongoose/lib/index.js:328:20)
+    at Timeout.connectWithRetry [as _onTimeout] (/usr/src/app/db/index.js:18:8)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7) 
+2023-03-20 13:58:03 INFO  MongoDB connection with retry 
+2023-03-20 13:58:03 ERROR MongoDB connection unsuccessful, retry after 2 seconds.The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+{}
+MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at Connection.openUri (/usr/src/app/node_modules/mongoose/lib/connection.js:684:11)
+    at /usr/src/app/node_modules/mongoose/lib/index.js:329:10
+    at /usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/usr/src/app/node_modules/mongoose/lib/index.js:1150:10)
+    at Mongoose.connect (/usr/src/app/node_modules/mongoose/lib/index.js:328:20)
+    at Timeout.connectWithRetry [as _onTimeout] (/usr/src/app/db/index.js:18:8)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7) 
+2023-03-20 13:58:05 INFO  MongoDB connection with retry 
+2023-03-20 13:58:05 ERROR MongoDB connection unsuccessful, retry after 2 seconds.The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+{}
+MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at Connection.openUri (/usr/src/app/node_modules/mongoose/lib/connection.js:684:11)
+    at /usr/src/app/node_modules/mongoose/lib/index.js:329:10
+    at /usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/usr/src/app/node_modules/mongoose/lib/index.js:1150:10)
+    at Mongoose.connect (/usr/src/app/node_modules/mongoose/lib/index.js:328:20)
+    at Timeout.connectWithRetry [as _onTimeout] (/usr/src/app/db/index.js:18:8)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7) 
+2023-03-20 13:58:07 INFO  MongoDB connection with retry 
+2023-03-20 13:58:07 ERROR MongoDB connection unsuccessful, retry after 2 seconds.The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+{}
+MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at Connection.openUri (/usr/src/app/node_modules/mongoose/lib/connection.js:684:11)
+    at /usr/src/app/node_modules/mongoose/lib/index.js:329:10
+    at /usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/usr/src/app/node_modules/mongoose/lib/index.js:1150:10)
+    at Mongoose.connect (/usr/src/app/node_modules/mongoose/lib/index.js:328:20)
+    at Timeout.connectWithRetry [as _onTimeout] (/usr/src/app/db/index.js:18:8)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7) 
+2023-03-20 13:58:09 INFO  MongoDB connection with retry 
+2023-03-20 13:58:09 ERROR MongoDB connection unsuccessful, retry after 2 seconds.The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+{}
+MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at Connection.openUri (/usr/src/app/node_modules/mongoose/lib/connection.js:684:11)
+    at /usr/src/app/node_modules/mongoose/lib/index.js:329:10
+    at /usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/usr/src/app/node_modules/mongoose/lib/index.js:1150:10)
+    at Mongoose.connect (/usr/src/app/node_modules/mongoose/lib/index.js:328:20)
+    at Timeout.connectWithRetry [as _onTimeout] (/usr/src/app/db/index.js:18:8)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7) 
+2023-03-20 13:58:11 INFO  MongoDB connection with retry 
+2023-03-20 13:58:11 ERROR MongoDB connection unsuccessful, retry after 2 seconds.The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+{}
+MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at Connection.openUri (/usr/src/app/node_modules/mongoose/lib/connection.js:684:11)
+    at /usr/src/app/node_modules/mongoose/lib/index.js:329:10
+    at /usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/usr/src/app/node_modules/mongoose/lib/index.js:1150:10)
+    at Mongoose.connect (/usr/src/app/node_modules/mongoose/lib/index.js:328:20)
+    at Timeout.connectWithRetry [as _onTimeout] (/usr/src/app/db/index.js:18:8)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7) 
+2023-03-20 13:58:13 INFO  MongoDB connection with retry 
+2023-03-20 13:58:13 ERROR MongoDB connection unsuccessful, retry after 2 seconds.The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+{}
+MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at Connection.openUri (/usr/src/app/node_modules/mongoose/lib/connection.js:684:11)
+    at /usr/src/app/node_modules/mongoose/lib/index.js:329:10
+    at /usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/usr/src/app/node_modules/mongoose/lib/index.js:1150:10)
+    at Mongoose.connect (/usr/src/app/node_modules/mongoose/lib/index.js:328:20)
+    at Timeout.connectWithRetry [as _onTimeout] (/usr/src/app/db/index.js:18:8)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7) 
+2023-03-20 13:58:15 INFO  MongoDB connection with retry 
+2023-03-20 13:58:15 ERROR MongoDB connection unsuccessful, retry after 2 seconds.The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+{}
+MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at Connection.openUri (/usr/src/app/node_modules/mongoose/lib/connection.js:684:11)
+    at /usr/src/app/node_modules/mongoose/lib/index.js:329:10
+    at /usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/usr/src/app/node_modules/mongoose/lib/index.js:1150:10)
+    at Mongoose.connect (/usr/src/app/node_modules/mongoose/lib/index.js:328:20)
+    at Timeout.connectWithRetry [as _onTimeout] (/usr/src/app/db/index.js:18:8)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7) 
+2023-03-20 13:58:17 INFO  MongoDB connection with retry 
+2023-03-20 13:58:17 ERROR MongoDB connection unsuccessful, retry after 2 seconds.The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+{}
+MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at Connection.openUri (/usr/src/app/node_modules/mongoose/lib/connection.js:684:11)
+    at /usr/src/app/node_modules/mongoose/lib/index.js:329:10
+    at /usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/usr/src/app/node_modules/mongoose/lib/index.js:1150:10)
+    at Mongoose.connect (/usr/src/app/node_modules/mongoose/lib/index.js:328:20)
+    at Timeout.connectWithRetry [as _onTimeout] (/usr/src/app/db/index.js:18:8)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7) 
+2023-03-20 13:58:19 INFO  MongoDB connection with retry 
+2023-03-20 13:58:19 ERROR MongoDB connection unsuccessful, retry after 2 seconds.The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+{}
+MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at Connection.openUri (/usr/src/app/node_modules/mongoose/lib/connection.js:684:11)
+    at /usr/src/app/node_modules/mongoose/lib/index.js:329:10
+    at /usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/usr/src/app/node_modules/mongoose/lib/index.js:1150:10)
+    at Mongoose.connect (/usr/src/app/node_modules/mongoose/lib/index.js:328:20)
+    at Timeout.connectWithRetry [as _onTimeout] (/usr/src/app/db/index.js:18:8)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7) 
+2023-03-20 13:58:21 INFO  MongoDB connection with retry 
+2023-03-20 13:58:21 ERROR MongoDB connection unsuccessful, retry after 2 seconds.The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+{}
+MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at Connection.openUri (/usr/src/app/node_modules/mongoose/lib/connection.js:684:11)
+    at /usr/src/app/node_modules/mongoose/lib/index.js:329:10
+    at /usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/usr/src/app/node_modules/mongoose/lib/index.js:1150:10)
+    at Mongoose.connect (/usr/src/app/node_modules/mongoose/lib/index.js:328:20)
+    at Timeout.connectWithRetry [as _onTimeout] (/usr/src/app/db/index.js:18:8)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7) 
+2023-03-20 13:58:23 INFO  MongoDB connection with retry 
+2023-03-20 13:58:23 ERROR MongoDB connection unsuccessful, retry after 2 seconds.The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+{}
+MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at Connection.openUri (/usr/src/app/node_modules/mongoose/lib/connection.js:684:11)
+    at /usr/src/app/node_modules/mongoose/lib/index.js:329:10
+    at /usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/usr/src/app/node_modules/mongoose/lib/index.js:1150:10)
+    at Mongoose.connect (/usr/src/app/node_modules/mongoose/lib/index.js:328:20)
+    at Timeout.connectWithRetry [as _onTimeout] (/usr/src/app/db/index.js:18:8)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7) 
+2023-03-20 13:58:25 INFO  MongoDB connection with retry 
+2023-03-20 13:58:25 ERROR MongoDB connection unsuccessful, retry after 2 seconds.The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+{}
+MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at Connection.openUri (/usr/src/app/node_modules/mongoose/lib/connection.js:684:11)
+    at /usr/src/app/node_modules/mongoose/lib/index.js:329:10
+    at /usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/usr/src/app/node_modules/mongoose/lib/index.js:1150:10)
+    at Mongoose.connect (/usr/src/app/node_modules/mongoose/lib/index.js:328:20)
+    at Timeout.connectWithRetry [as _onTimeout] (/usr/src/app/db/index.js:18:8)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7) 
+2023-03-20 13:58:27 INFO  MongoDB connection with retry 
+2023-03-20 13:58:27 ERROR MongoDB connection unsuccessful, retry after 2 seconds.The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+{}
+MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at Connection.openUri (/usr/src/app/node_modules/mongoose/lib/connection.js:684:11)
+    at /usr/src/app/node_modules/mongoose/lib/index.js:329:10
+    at /usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/usr/src/app/node_modules/mongoose/lib/index.js:1150:10)
+    at Mongoose.connect (/usr/src/app/node_modules/mongoose/lib/index.js:328:20)
+    at Timeout.connectWithRetry [as _onTimeout] (/usr/src/app/db/index.js:18:8)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7) 
+2023-03-20 14:13:42 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-20 14:13:42 INFO  MongoDB connection with retry 
+2023-03-20 14:13:43 INFO  MongoDB is connected 
+2023-03-20 14:13:43 INFO  Server is up on port: 8080 
+2023-03-20 14:14:39 INFO  The Backend is Running on this config:{"environment":"staging","port":"8080","database":{"MONGODB_URI":"culito"}} 
+2023-03-20 14:14:39 INFO  MongoDB connection with retry 
+2023-03-20 14:14:39 ERROR MongoDB connection unsuccessful, retry after 2 seconds.Invalid connection string "culito"
+{}
+MongoParseError: Invalid connection string "culito"
+    at new ConnectionString (/usr/src/app/node_modules/mongodb-connection-string-url/lib/index.js:66:19)
+    at Object.parseOptions (/usr/src/app/node_modules/mongoose/node_modules/mongodb/lib/connection_string.js:210:17)
+    at new MongoClient (/usr/src/app/node_modules/mongoose/node_modules/mongodb/lib/mongo_client.js:62:46)
+    at /usr/src/app/node_modules/mongoose/lib/connection.js:779:16
+    at new Promise (<anonymous>)
+    at Connection.openUri (/usr/src/app/node_modules/mongoose/lib/connection.js:776:19)
+    at /usr/src/app/node_modules/mongoose/lib/index.js:329:10
+    at /usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10) 
+2023-03-20 14:14:41 INFO  MongoDB connection with retry 
+2023-03-20 14:14:41 ERROR MongoDB connection unsuccessful, retry after 2 seconds.Invalid connection string "culito"
+{}
+MongoParseError: Invalid connection string "culito"
+    at new ConnectionString (/usr/src/app/node_modules/mongodb-connection-string-url/lib/index.js:66:19)
+    at Object.parseOptions (/usr/src/app/node_modules/mongoose/node_modules/mongodb/lib/connection_string.js:210:17)
+    at new MongoClient (/usr/src/app/node_modules/mongoose/node_modules/mongodb/lib/mongo_client.js:62:46)
+    at /usr/src/app/node_modules/mongoose/lib/connection.js:779:16
+    at new Promise (<anonymous>)
+    at Connection.openUri (/usr/src/app/node_modules/mongoose/lib/connection.js:776:19)
+    at /usr/src/app/node_modules/mongoose/lib/index.js:329:10
+    at /usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10) 
+2023-03-20 14:14:43 INFO  MongoDB connection with retry 
+2023-03-20 14:14:43 ERROR MongoDB connection unsuccessful, retry after 2 seconds.Invalid connection string "culito"
+{}
+MongoParseError: Invalid connection string "culito"
+    at new ConnectionString (/usr/src/app/node_modules/mongodb-connection-string-url/lib/index.js:66:19)
+    at Object.parseOptions (/usr/src/app/node_modules/mongoose/node_modules/mongodb/lib/connection_string.js:210:17)
+    at new MongoClient (/usr/src/app/node_modules/mongoose/node_modules/mongodb/lib/mongo_client.js:62:46)
+    at /usr/src/app/node_modules/mongoose/lib/connection.js:779:16
+    at new Promise (<anonymous>)
+    at Connection.openUri (/usr/src/app/node_modules/mongoose/lib/connection.js:776:19)
+    at /usr/src/app/node_modules/mongoose/lib/index.js:329:10
+    at /usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10) 
+2023-03-20 14:14:45 INFO  MongoDB connection with retry 
+2023-03-20 14:14:45 ERROR MongoDB connection unsuccessful, retry after 2 seconds.Invalid connection string "culito"
+{}
+MongoParseError: Invalid connection string "culito"
+    at new ConnectionString (/usr/src/app/node_modules/mongodb-connection-string-url/lib/index.js:66:19)
+    at Object.parseOptions (/usr/src/app/node_modules/mongoose/node_modules/mongodb/lib/connection_string.js:210:17)
+    at new MongoClient (/usr/src/app/node_modules/mongoose/node_modules/mongodb/lib/mongo_client.js:62:46)
+    at /usr/src/app/node_modules/mongoose/lib/connection.js:779:16
+    at new Promise (<anonymous>)
+    at Connection.openUri (/usr/src/app/node_modules/mongoose/lib/connection.js:776:19)
+    at /usr/src/app/node_modules/mongoose/lib/index.js:329:10
+    at /usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10) 
+2023-03-20 14:14:47 INFO  MongoDB connection with retry 
+2023-03-20 14:14:47 ERROR MongoDB connection unsuccessful, retry after 2 seconds.Invalid connection string "culito"
+{}
+MongoParseError: Invalid connection string "culito"
+    at new ConnectionString (/usr/src/app/node_modules/mongodb-connection-string-url/lib/index.js:66:19)
+    at Object.parseOptions (/usr/src/app/node_modules/mongoose/node_modules/mongodb/lib/connection_string.js:210:17)
+    at new MongoClient (/usr/src/app/node_modules/mongoose/node_modules/mongodb/lib/mongo_client.js:62:46)
+    at /usr/src/app/node_modules/mongoose/lib/connection.js:779:16
+    at new Promise (<anonymous>)
+    at Connection.openUri (/usr/src/app/node_modules/mongoose/lib/connection.js:776:19)
+    at /usr/src/app/node_modules/mongoose/lib/index.js:329:10
+    at /usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10) 
+2023-03-20 14:14:49 INFO  MongoDB connection with retry 
+2023-03-20 14:14:49 ERROR MongoDB connection unsuccessful, retry after 2 seconds.Invalid connection string "culito"
+{}
+MongoParseError: Invalid connection string "culito"
+    at new ConnectionString (/usr/src/app/node_modules/mongodb-connection-string-url/lib/index.js:66:19)
+    at Object.parseOptions (/usr/src/app/node_modules/mongoose/node_modules/mongodb/lib/connection_string.js:210:17)
+    at new MongoClient (/usr/src/app/node_modules/mongoose/node_modules/mongodb/lib/mongo_client.js:62:46)
+    at /usr/src/app/node_modules/mongoose/lib/connection.js:779:16
+    at new Promise (<anonymous>)
+    at Connection.openUri (/usr/src/app/node_modules/mongoose/lib/connection.js:776:19)
+    at /usr/src/app/node_modules/mongoose/lib/index.js:329:10
+    at /usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10) 
+2023-03-20 14:14:51 INFO  MongoDB connection with retry 
+2023-03-20 14:14:51 ERROR MongoDB connection unsuccessful, retry after 2 seconds.Invalid connection string "culito"
+{}
+MongoParseError: Invalid connection string "culito"
+    at new ConnectionString (/usr/src/app/node_modules/mongodb-connection-string-url/lib/index.js:66:19)
+    at Object.parseOptions (/usr/src/app/node_modules/mongoose/node_modules/mongodb/lib/connection_string.js:210:17)
+    at new MongoClient (/usr/src/app/node_modules/mongoose/node_modules/mongodb/lib/mongo_client.js:62:46)
+    at /usr/src/app/node_modules/mongoose/lib/connection.js:779:16
+    at new Promise (<anonymous>)
+    at Connection.openUri (/usr/src/app/node_modules/mongoose/lib/connection.js:776:19)
+    at /usr/src/app/node_modules/mongoose/lib/index.js:329:10
+    at /usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10) 
+2023-03-20 14:14:53 INFO  MongoDB connection with retry 
+2023-03-20 14:14:53 ERROR MongoDB connection unsuccessful, retry after 2 seconds.Invalid connection string "culito"
+{}
+MongoParseError: Invalid connection string "culito"
+    at new ConnectionString (/usr/src/app/node_modules/mongodb-connection-string-url/lib/index.js:66:19)
+    at Object.parseOptions (/usr/src/app/node_modules/mongoose/node_modules/mongodb/lib/connection_string.js:210:17)
+    at new MongoClient (/usr/src/app/node_modules/mongoose/node_modules/mongodb/lib/mongo_client.js:62:46)
+    at /usr/src/app/node_modules/mongoose/lib/connection.js:779:16
+    at new Promise (<anonymous>)
+    at Connection.openUri (/usr/src/app/node_modules/mongoose/lib/connection.js:776:19)
+    at /usr/src/app/node_modules/mongoose/lib/index.js:329:10
+    at /usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10) 
+2023-03-20 14:28:14 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-20 14:28:14 INFO  MongoDB connection with retry 
+2023-03-20 14:28:16 INFO  MongoDB is connected 
+2023-03-20 14:28:16 INFO  Server is up on port: 8080 
+2023-03-20 15:50:05 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-20 15:50:05 INFO  MongoDB connection with retry 
+2023-03-20 15:50:07 INFO  MongoDB is connected 
+2023-03-20 15:50:07 INFO  Server is up on port: 8080 
+2023-03-20 15:53:54 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-20 15:53:54 INFO  MongoDB connection with retry 
+2023-03-20 15:53:57 INFO  MongoDB is connected 
+2023-03-20 15:53:57 INFO  Server is up on port: 8080 
+2023-03-20 16:02:25 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-20 16:02:25 INFO  MongoDB connection with retry 
+2023-03-20 16:02:25 INFO  MongoDB is connected 
+2023-03-20 16:02:25 INFO  Server is up on port: 8080 
+2023-03-20 16:03:09 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-20 16:03:09 INFO  MongoDB connection with retry 
+2023-03-20 16:03:12 INFO  MongoDB is connected 
+2023-03-20 16:03:12 INFO  Server is up on port: 8080 
+2023-03-20 16:09:52 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-20 16:09:52 INFO  MongoDB connection with retry 
+2023-03-20 16:09:54 INFO  MongoDB is connected 
+2023-03-20 16:09:54 INFO  Server is up on port: 8080 
+2023-03-20 16:21:00 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-20 16:21:00 INFO  MongoDB connection with retry 
+2023-03-20 16:21:00 INFO  MongoDB is connected 
+2023-03-20 16:21:00 INFO  Server is up on port: 8080 
+2023-03-20 16:25:02 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-20 16:25:02 INFO  MongoDB connection with retry 
+2023-03-20 16:25:04 INFO  MongoDB is connected 
+2023-03-20 16:25:04 INFO  Server is up on port: 8080 
+2023-03-20 16:31:43 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-20 16:31:43 INFO  MongoDB connection with retry 
+2023-03-20 16:31:43 INFO  MongoDB is connected 
+2023-03-20 16:31:43 INFO  Server is up on port: 8080 
+2023-03-20 16:32:02 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-20 16:32:02 INFO  MongoDB connection with retry 
+2023-03-20 16:32:04 INFO  MongoDB is connected 
+2023-03-20 16:32:04 INFO  Server is up on port: 8080 
+2023-03-20 16:37:02 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-20 16:37:02 INFO  MongoDB connection with retry 
+2023-03-20 16:37:04 INFO  MongoDB is connected 
+2023-03-20 16:37:04 INFO  Server is up on port: 8080 
+2023-03-20 16:37:41 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-20 16:37:41 INFO  MongoDB connection with retry 
+2023-03-20 16:37:43 INFO  MongoDB is connected 
+2023-03-20 16:37:43 INFO  Server is up on port: 8080 
+2023-03-20 16:38:38 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-20 16:38:38 INFO  MongoDB connection with retry 
+2023-03-20 16:38:40 INFO  MongoDB is connected 
+2023-03-20 16:38:40 INFO  Server is up on port: 8080 
+2023-03-20 16:41:39 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-20 16:41:39 INFO  MongoDB connection with retry 
+2023-03-20 16:41:40 INFO  MongoDB is connected 
+2023-03-20 16:41:40 INFO  Server is up on port: 8080 
+2023-03-20 16:43:34 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-20 16:43:34 INFO  MongoDB connection with retry 
+2023-03-20 16:43:36 INFO  MongoDB is connected 
+2023-03-20 16:43:36 INFO  Server is up on port: 8080 
+2023-03-20 16:49:12 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-20 16:49:12 INFO  MongoDB connection with retry 
+2023-03-20 16:49:14 INFO  MongoDB is connected 
+2023-03-20 16:49:14 INFO  Server is up on port: 8080 
+2023-03-20 16:50:09 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-20 16:50:09 INFO  MongoDB connection with retry 
+2023-03-20 16:50:11 INFO  MongoDB is connected 
+2023-03-20 16:50:11 INFO  Server is up on port: 8080 
+2023-03-20 16:52:40 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-20 16:52:40 INFO  MongoDB connection with retry 
+2023-03-20 16:52:42 INFO  MongoDB is connected 
+2023-03-20 16:52:42 INFO  Server is up on port: 8080 
+2023-03-20 16:55:17 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-20 16:55:17 INFO  MongoDB connection with retry 
+2023-03-20 16:55:17 INFO  MongoDB is connected 
+2023-03-20 16:55:17 INFO  Server is up on port: 8080 
+2023-03-20 16:55:54 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-20 16:55:54 INFO  MongoDB connection with retry 
+2023-03-20 16:55:54 INFO  MongoDB is connected 
+2023-03-20 16:55:54 INFO  Server is up on port: 8080 
+2023-03-20 16:56:08 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-20 16:56:08 INFO  MongoDB connection with retry 
+2023-03-20 16:56:08 INFO  MongoDB is connected 
+2023-03-20 16:56:08 INFO  Server is up on port: 8080 
+2023-03-20 16:57:18 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-20 16:57:18 INFO  MongoDB connection with retry 
+2023-03-20 16:57:20 INFO  MongoDB is connected 
+2023-03-20 16:57:20 INFO  Server is up on port: 8080 
+2023-03-20 17:02:41 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-20 17:02:41 INFO  MongoDB connection with retry 
+2023-03-20 17:02:44 INFO  MongoDB is connected 
+2023-03-20 17:02:44 INFO  Server is up on port: 8080 
+2023-03-20 17:05:35 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-20 17:05:35 INFO  MongoDB connection with retry 
+2023-03-20 17:05:37 INFO  MongoDB is connected 
+2023-03-20 17:05:37 INFO  Server is up on port: 8080 
+2023-03-20 17:07:02 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-20 17:07:02 INFO  MongoDB connection with retry 
+2023-03-20 17:07:05 INFO  MongoDB is connected 
+2023-03-20 17:07:05 INFO  Server is up on port: 8080 
+2023-03-20 18:35:03 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{}} 
+2023-03-20 18:35:03 INFO  MongoDB connection with retry 
+2023-03-20 18:35:03 ERROR MongoDB connection unsuccessful, retry after 2 seconds.The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+{}
+MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at Connection.openUri (/usr/src/app/node_modules/mongoose/lib/connection.js:684:11)
+    at /usr/src/app/node_modules/mongoose/lib/index.js:329:10
+    at /usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/usr/src/app/node_modules/mongoose/lib/index.js:1150:10)
+    at Mongoose.connect (/usr/src/app/node_modules/mongoose/lib/index.js:328:20)
+    at connectWithRetry (/usr/src/app/db/index.js:18:8)
+    at exports.connect (/usr/src/app/db/index.js:28:3)
+    at Object.<anonymous> (/usr/src/app/server.js:24:4) 
+2023-03-20 18:35:05 INFO  MongoDB connection with retry 
+2023-03-20 18:35:05 ERROR MongoDB connection unsuccessful, retry after 2 seconds.The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+{}
+MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at Connection.openUri (/usr/src/app/node_modules/mongoose/lib/connection.js:684:11)
+    at /usr/src/app/node_modules/mongoose/lib/index.js:329:10
+    at /usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/usr/src/app/node_modules/mongoose/lib/index.js:1150:10)
+    at Mongoose.connect (/usr/src/app/node_modules/mongoose/lib/index.js:328:20)
+    at Timeout.connectWithRetry [as _onTimeout] (/usr/src/app/db/index.js:18:8)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7) 
+2023-03-20 18:35:07 INFO  MongoDB connection with retry 
+2023-03-20 18:35:07 ERROR MongoDB connection unsuccessful, retry after 2 seconds.The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+{}
+MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at Connection.openUri (/usr/src/app/node_modules/mongoose/lib/connection.js:684:11)
+    at /usr/src/app/node_modules/mongoose/lib/index.js:329:10
+    at /usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/usr/src/app/node_modules/mongoose/lib/index.js:1150:10)
+    at Mongoose.connect (/usr/src/app/node_modules/mongoose/lib/index.js:328:20)
+    at Timeout.connectWithRetry [as _onTimeout] (/usr/src/app/db/index.js:18:8)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7) 
+2023-03-20 18:35:09 INFO  MongoDB connection with retry 
+2023-03-20 18:35:09 ERROR MongoDB connection unsuccessful, retry after 2 seconds.The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+{}
+MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at Connection.openUri (/usr/src/app/node_modules/mongoose/lib/connection.js:684:11)
+    at /usr/src/app/node_modules/mongoose/lib/index.js:329:10
+    at /usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/usr/src/app/node_modules/mongoose/lib/index.js:1150:10)
+    at Mongoose.connect (/usr/src/app/node_modules/mongoose/lib/index.js:328:20)
+    at Timeout.connectWithRetry [as _onTimeout] (/usr/src/app/db/index.js:18:8)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7) 
+2023-03-20 18:35:11 INFO  MongoDB connection with retry 
+2023-03-20 18:35:11 ERROR MongoDB connection unsuccessful, retry after 2 seconds.The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+{}
+MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at Connection.openUri (/usr/src/app/node_modules/mongoose/lib/connection.js:684:11)
+    at /usr/src/app/node_modules/mongoose/lib/index.js:329:10
+    at /usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/usr/src/app/node_modules/mongoose/lib/index.js:1150:10)
+    at Mongoose.connect (/usr/src/app/node_modules/mongoose/lib/index.js:328:20)
+    at Timeout.connectWithRetry [as _onTimeout] (/usr/src/app/db/index.js:18:8)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7) 
+2023-03-20 18:35:13 INFO  MongoDB connection with retry 
+2023-03-20 18:35:13 ERROR MongoDB connection unsuccessful, retry after 2 seconds.The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+{}
+MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at Connection.openUri (/usr/src/app/node_modules/mongoose/lib/connection.js:684:11)
+    at /usr/src/app/node_modules/mongoose/lib/index.js:329:10
+    at /usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/usr/src/app/node_modules/mongoose/lib/index.js:1150:10)
+    at Mongoose.connect (/usr/src/app/node_modules/mongoose/lib/index.js:328:20)
+    at Timeout.connectWithRetry [as _onTimeout] (/usr/src/app/db/index.js:18:8)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7) 
+2023-03-20 18:35:15 INFO  MongoDB connection with retry 
+2023-03-20 18:35:15 ERROR MongoDB connection unsuccessful, retry after 2 seconds.The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+{}
+MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at Connection.openUri (/usr/src/app/node_modules/mongoose/lib/connection.js:684:11)
+    at /usr/src/app/node_modules/mongoose/lib/index.js:329:10
+    at /usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/usr/src/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/usr/src/app/node_modules/mongoose/lib/index.js:1150:10)
+    at Mongoose.connect (/usr/src/app/node_modules/mongoose/lib/index.js:328:20)
+    at Timeout.connectWithRetry [as _onTimeout] (/usr/src/app/db/index.js:18:8)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7) 
+2023-03-20 18:36:16 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-20 18:36:16 INFO  MongoDB connection with retry 
+2023-03-20 18:36:18 INFO  MongoDB is connected 
+2023-03-20 18:36:18 INFO  Server is up on port: 8080 
+2023-03-20 19:16:52 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-20 19:16:52 INFO  MongoDB connection with retry 
+2023-03-20 19:16:54 INFO  MongoDB is connected 
+2023-03-20 19:16:54 INFO  Server is up on port: 8080 
