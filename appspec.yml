@@ -5,7 +5,6 @@ Resources:
       Type: AWS::ECS::Service
       Properties:
         TaskDefinition: <TASK_DEFINITION>
-        TaskDefinition: 
         LoadBalancerInfo:
           ContainerName: "TrendCartBackend"
           ContainerPort: 8000
