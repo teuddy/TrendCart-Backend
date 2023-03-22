@@ -3,51 +3,44 @@
  */
 const config = require('./config/config.js')
 const express = require("express");
-const path = require("path");
-const cookieParser = require("cookie-parser");
-const bodyParser = require("body-parser");
+// const path = require("path");
+// const cookieParser = require("cookie-parser");
+// const bodyParser = require("body-parser");
 const cors = require("cors");
 const db = require("./db");
 const app = express();
 const {log} = require('./utils/helpers/logger')
 
+//bring route category for testing
+const {Category} = require('./models')
+
+
+const router = require('./routes')
 
 //get variables from the actual NODE_ENV
 const environment = config[
   process.env.NODE_ENV || 
   'development'
 ]
-
-log.info("The Backend is Running on this config:",environment)
-
 //pass environment database variables and app
 db.connect(
   app,
   environment.database
-  );
+);
 
-  //cambio uno
-
-// app.use(cors());
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: false }));
-app.use(cookieParser());
-app.use(express.static(path.join(__dirname, "public")));
+app.use(cors());
+app.use(express.json());
+// app.use(bodyParser.urlencoded({ extended: false }));
+// app.use(cookieParser());
+// app.use(express.static(path.join(__dirname, "public")));
 
 
-// adding routes
-require("./routes")(app);
+app.use('/v1',router)
 
 app.get('/saludos',(req,res)=>{
-  res.send("hello world ")
+  res.send('hello world another version')
 })
 
-app.get('/health',(req,res)=>{
-  res.json({
-    name:"rafa",
-    age:34
-  })
-})
 
 app.on("ready", () => {
   app.listen(environment.port, () => {

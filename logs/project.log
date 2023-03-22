@@ -696,3 +696,394 @@ MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefin
 2023-03-20 19:16:52 INFO  MongoDB connection with retry 
 2023-03-20 19:16:54 INFO  MongoDB is connected 
 2023-03-20 19:16:54 INFO  Server is up on port: 8080 
+2023-03-22 13:32:09 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 13:32:09 INFO  MongoDB connection with retry 
+2023-03-22 13:32:12 INFO  MongoDB is connected 
+2023-03-22 13:32:12 INFO  Server is up on port: 8080 
+2023-03-22 13:36:50 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 13:36:50 INFO  MongoDB connection with retry 
+2023-03-22 13:36:52 INFO  MongoDB is connected 
+2023-03-22 13:36:52 INFO  Server is up on port: 8080 
+2023-03-22 13:57:22 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 13:57:22 INFO  MongoDB connection with retry 
+2023-03-22 13:57:24 INFO  MongoDB is connected 
+2023-03-22 13:57:24 INFO  Server is up on port: 8080 
+2023-03-22 14:00:24 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 14:00:24 INFO  MongoDB connection with retry 
+2023-03-22 14:00:24 INFO  MongoDB is connected 
+2023-03-22 14:00:24 INFO  Server is up on port: 8080 
+2023-03-22 14:00:50 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 14:00:50 INFO  MongoDB connection with retry 
+2023-03-22 14:00:50 INFO  MongoDB is connected 
+2023-03-22 14:00:50 INFO  Server is up on port: 8080 
+2023-03-22 14:00:58 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 14:00:58 INFO  MongoDB connection with retry 
+2023-03-22 14:00:58 INFO  MongoDB is connected 
+2023-03-22 14:00:58 INFO  Server is up on port: 8080 
+2023-03-22 14:01:17 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 14:01:17 INFO  MongoDB connection with retry 
+2023-03-22 14:01:17 INFO  MongoDB is connected 
+2023-03-22 14:01:17 INFO  Server is up on port: 8080 
+2023-03-22 14:01:23 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 14:01:23 INFO  MongoDB connection with retry 
+2023-03-22 14:01:23 INFO  MongoDB is connected 
+2023-03-22 14:01:23 INFO  Server is up on port: 8080 
+2023-03-22 14:01:46 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 14:01:46 INFO  MongoDB connection with retry 
+2023-03-22 14:01:46 INFO  MongoDB is connected 
+2023-03-22 14:01:46 INFO  Server is up on port: 8080 
+2023-03-22 14:01:48 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 14:01:48 INFO  MongoDB connection with retry 
+2023-03-22 14:01:48 INFO  MongoDB is connected 
+2023-03-22 14:01:48 INFO  Server is up on port: 8080 
+2023-03-22 14:01:56 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 14:01:56 INFO  MongoDB connection with retry 
+2023-03-22 14:01:56 INFO  MongoDB is connected 
+2023-03-22 14:01:56 INFO  Server is up on port: 8080 
+2023-03-22 14:02:04 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 14:02:04 INFO  MongoDB connection with retry 
+2023-03-22 14:02:04 INFO  MongoDB is connected 
+2023-03-22 14:02:04 INFO  Server is up on port: 8080 
+2023-03-22 14:02:25 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 14:02:25 INFO  MongoDB connection with retry 
+2023-03-22 14:02:25 INFO  MongoDB is connected 
+2023-03-22 14:02:25 INFO  Server is up on port: 8080 
+2023-03-22 14:02:36 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 14:02:36 INFO  MongoDB connection with retry 
+2023-03-22 14:02:36 INFO  MongoDB is connected 
+2023-03-22 14:02:36 INFO  Server is up on port: 8080 
+2023-03-22 14:02:45 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 14:02:45 INFO  MongoDB connection with retry 
+2023-03-22 14:02:45 INFO  MongoDB is connected 
+2023-03-22 14:02:45 INFO  Server is up on port: 8080 
+2023-03-22 14:02:52 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 14:02:52 INFO  MongoDB connection with retry 
+2023-03-22 14:02:52 INFO  MongoDB is connected 
+2023-03-22 14:02:52 INFO  Server is up on port: 8080 
+2023-03-22 14:03:04 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 14:03:04 INFO  MongoDB connection with retry 
+2023-03-22 14:03:04 INFO  MongoDB is connected 
+2023-03-22 14:03:04 INFO  Server is up on port: 8080 
+2023-03-22 14:03:17 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 14:03:17 INFO  MongoDB connection with retry 
+2023-03-22 14:03:17 INFO  MongoDB is connected 
+2023-03-22 14:03:17 INFO  Server is up on port: 8080 
+2023-03-22 14:03:18 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 14:03:18 INFO  MongoDB connection with retry 
+2023-03-22 14:03:18 INFO  MongoDB is connected 
+2023-03-22 14:03:18 INFO  Server is up on port: 8080 
+2023-03-22 14:03:41 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 14:03:41 INFO  MongoDB connection with retry 
+2023-03-22 14:03:41 INFO  MongoDB is connected 
+2023-03-22 14:03:41 INFO  Server is up on port: 8080 
+2023-03-22 14:04:11 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 14:04:11 INFO  MongoDB connection with retry 
+2023-03-22 14:04:11 INFO  MongoDB is connected 
+2023-03-22 14:04:11 INFO  Server is up on port: 8080 
+2023-03-22 14:05:45 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 14:05:45 INFO  MongoDB connection with retry 
+2023-03-22 14:05:45 INFO  MongoDB is connected 
+2023-03-22 14:05:45 INFO  Server is up on port: 8080 
+2023-03-22 14:05:53 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 14:05:53 INFO  MongoDB connection with retry 
+2023-03-22 14:05:53 INFO  MongoDB is connected 
+2023-03-22 14:05:53 INFO  Server is up on port: 8080 
+2023-03-22 14:06:12 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 14:06:12 INFO  MongoDB connection with retry 
+2023-03-22 14:06:12 INFO  MongoDB is connected 
+2023-03-22 14:06:12 INFO  Server is up on port: 8080 
+2023-03-22 14:06:21 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 14:06:21 INFO  MongoDB connection with retry 
+2023-03-22 14:06:21 INFO  MongoDB is connected 
+2023-03-22 14:06:21 INFO  Server is up on port: 8080 
+2023-03-22 14:06:53 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 14:06:53 INFO  MongoDB connection with retry 
+2023-03-22 14:06:53 INFO  MongoDB is connected 
+2023-03-22 14:06:53 INFO  Server is up on port: 8080 
+2023-03-22 14:06:54 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 14:06:54 INFO  MongoDB connection with retry 
+2023-03-22 14:06:54 INFO  MongoDB is connected 
+2023-03-22 14:06:54 INFO  Server is up on port: 8080 
+2023-03-22 14:07:16 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 14:07:16 INFO  MongoDB connection with retry 
+2023-03-22 14:07:16 INFO  MongoDB is connected 
+2023-03-22 14:07:16 INFO  Server is up on port: 8080 
+2023-03-22 14:07:23 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 14:07:23 INFO  MongoDB connection with retry 
+2023-03-22 14:07:23 INFO  MongoDB is connected 
+2023-03-22 14:07:23 INFO  Server is up on port: 8080 
+2023-03-22 14:07:29 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 14:07:29 INFO  MongoDB connection with retry 
+2023-03-22 14:07:29 INFO  MongoDB is connected 
+2023-03-22 14:07:29 INFO  Server is up on port: 8080 
+2023-03-22 14:07:35 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 14:07:35 INFO  MongoDB connection with retry 
+2023-03-22 14:07:35 INFO  MongoDB is connected 
+2023-03-22 14:07:35 INFO  Server is up on port: 8080 
+2023-03-22 14:07:42 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 14:07:42 INFO  MongoDB connection with retry 
+2023-03-22 14:07:42 INFO  MongoDB is connected 
+2023-03-22 14:07:42 INFO  Server is up on port: 8080 
+2023-03-22 14:12:25 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 14:12:25 INFO  MongoDB connection with retry 
+2023-03-22 14:12:25 INFO  MongoDB is connected 
+2023-03-22 14:12:25 INFO  Server is up on port: 8080 
+2023-03-22 14:13:14 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 14:13:14 INFO  MongoDB connection with retry 
+2023-03-22 14:13:14 INFO  MongoDB is connected 
+2023-03-22 14:13:14 INFO  Server is up on port: 8080 
+2023-03-22 14:13:29 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 14:13:29 INFO  MongoDB connection with retry 
+2023-03-22 14:13:29 INFO  MongoDB is connected 
+2023-03-22 14:13:29 INFO  Server is up on port: 8080 
+2023-03-22 14:17:42 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 14:17:42 INFO  MongoDB connection with retry 
+2023-03-22 14:17:42 INFO  MongoDB is connected 
+2023-03-22 14:17:42 INFO  Server is up on port: 8080 
+2023-03-22 14:22:21 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 14:22:21 INFO  MongoDB connection with retry 
+2023-03-22 14:22:21 INFO  MongoDB is connected 
+2023-03-22 14:22:21 INFO  Server is up on port: 8080 
+2023-03-22 14:22:44 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 14:22:44 INFO  MongoDB connection with retry 
+2023-03-22 14:22:44 INFO  MongoDB is connected 
+2023-03-22 14:22:44 INFO  Server is up on port: 8080 
+2023-03-22 14:27:52 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 14:27:52 INFO  MongoDB connection with retry 
+2023-03-22 14:27:52 INFO  MongoDB is connected 
+2023-03-22 14:27:52 INFO  Server is up on port: 8080 
+2023-03-22 14:28:11 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 14:28:11 INFO  MongoDB connection with retry 
+2023-03-22 14:28:11 INFO  MongoDB is connected 
+2023-03-22 14:28:11 INFO  Server is up on port: 8080 
+2023-03-22 14:28:38 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 14:28:38 INFO  MongoDB connection with retry 
+2023-03-22 14:28:38 INFO  MongoDB is connected 
+2023-03-22 14:28:38 INFO  Server is up on port: 8080 
+2023-03-22 14:29:07 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 14:29:07 INFO  MongoDB connection with retry 
+2023-03-22 14:29:07 INFO  MongoDB is connected 
+2023-03-22 14:29:07 INFO  Server is up on port: 8080 
+2023-03-22 14:29:52 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 14:29:52 INFO  MongoDB connection with retry 
+2023-03-22 14:29:52 INFO  MongoDB is connected 
+2023-03-22 14:29:52 INFO  Server is up on port: 8080 
+2023-03-22 14:30:01 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 14:30:01 INFO  MongoDB connection with retry 
+2023-03-22 14:30:01 INFO  MongoDB is connected 
+2023-03-22 14:30:01 INFO  Server is up on port: 8080 
+2023-03-22 14:30:54 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 14:30:54 INFO  MongoDB connection with retry 
+2023-03-22 14:30:54 INFO  MongoDB is connected 
+2023-03-22 14:30:54 INFO  Server is up on port: 8080 
+2023-03-22 14:31:00 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 14:31:00 INFO  MongoDB connection with retry 
+2023-03-22 14:31:00 INFO  MongoDB is connected 
+2023-03-22 14:31:00 INFO  Server is up on port: 8080 
+2023-03-22 14:31:37 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 14:31:37 INFO  MongoDB connection with retry 
+2023-03-22 14:31:37 INFO  MongoDB is connected 
+2023-03-22 14:31:37 INFO  Server is up on port: 8080 
+2023-03-22 14:32:08 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 14:32:08 INFO  MongoDB connection with retry 
+2023-03-22 14:32:08 INFO  MongoDB is connected 
+2023-03-22 14:32:08 INFO  Server is up on port: 8080 
+2023-03-22 14:32:16 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 14:32:16 INFO  MongoDB connection with retry 
+2023-03-22 14:32:16 INFO  MongoDB is connected 
+2023-03-22 14:32:16 INFO  Server is up on port: 8080 
+2023-03-22 14:32:30 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 14:32:30 INFO  MongoDB connection with retry 
+2023-03-22 14:32:30 INFO  MongoDB is connected 
+2023-03-22 14:32:30 INFO  Server is up on port: 8080 
+2023-03-22 14:32:42 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 14:32:42 INFO  MongoDB connection with retry 
+2023-03-22 14:32:42 INFO  MongoDB is connected 
+2023-03-22 14:32:42 INFO  Server is up on port: 8080 
+2023-03-22 14:33:19 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 14:33:19 INFO  MongoDB connection with retry 
+2023-03-22 14:33:19 INFO  MongoDB is connected 
+2023-03-22 14:33:19 INFO  Server is up on port: 8080 
+2023-03-22 14:33:26 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 14:33:26 INFO  MongoDB connection with retry 
+2023-03-22 14:33:26 INFO  MongoDB is connected 
+2023-03-22 14:33:26 INFO  Server is up on port: 8080 
+2023-03-22 14:33:37 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 14:33:37 INFO  MongoDB connection with retry 
+2023-03-22 14:33:37 INFO  MongoDB is connected 
+2023-03-22 14:33:37 INFO  Server is up on port: 8080 
+2023-03-22 14:44:35 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 14:44:35 INFO  MongoDB connection with retry 
+2023-03-22 14:44:35 INFO  MongoDB is connected 
+2023-03-22 14:44:35 INFO  Server is up on port: 8080 
+2023-03-22 14:45:23 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 14:45:23 INFO  MongoDB connection with retry 
+2023-03-22 14:45:23 INFO  MongoDB is connected 
+2023-03-22 14:45:23 INFO  Server is up on port: 8080 
+2023-03-22 14:46:57 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 14:46:57 INFO  MongoDB connection with retry 
+2023-03-22 14:46:57 INFO  MongoDB is connected 
+2023-03-22 14:46:57 INFO  Server is up on port: 8080 
+2023-03-22 14:47:10 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 14:47:10 INFO  MongoDB connection with retry 
+2023-03-22 14:47:10 INFO  MongoDB is connected 
+2023-03-22 14:47:10 INFO  Server is up on port: 8080 
+2023-03-22 14:47:15 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 14:47:15 INFO  MongoDB connection with retry 
+2023-03-22 14:47:15 INFO  MongoDB is connected 
+2023-03-22 14:47:15 INFO  Server is up on port: 8080 
+2023-03-22 14:50:06 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 14:50:06 INFO  MongoDB connection with retry 
+2023-03-22 14:50:06 INFO  MongoDB is connected 
+2023-03-22 14:50:06 INFO  Server is up on port: 8080 
+2023-03-22 14:51:57 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 14:51:57 INFO  MongoDB connection with retry 
+2023-03-22 14:51:57 INFO  MongoDB is connected 
+2023-03-22 14:51:57 INFO  Server is up on port: 8080 
+2023-03-22 14:53:35 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 14:53:35 INFO  MongoDB connection with retry 
+2023-03-22 14:53:35 INFO  MongoDB is connected 
+2023-03-22 14:53:35 INFO  Server is up on port: 8080 
+2023-03-22 14:55:45 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 14:55:45 INFO  MongoDB connection with retry 
+2023-03-22 14:55:45 INFO  MongoDB is connected 
+2023-03-22 14:55:45 INFO  Server is up on port: 8080 
+2023-03-22 14:56:20 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 14:56:20 INFO  MongoDB connection with retry 
+2023-03-22 14:56:20 INFO  MongoDB is connected 
+2023-03-22 14:56:20 INFO  Server is up on port: 8080 
+2023-03-22 14:56:37 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 14:56:37 INFO  MongoDB connection with retry 
+2023-03-22 14:56:37 INFO  MongoDB is connected 
+2023-03-22 14:56:37 INFO  Server is up on port: 8080 
+2023-03-22 14:58:07 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 14:58:07 INFO  MongoDB connection with retry 
+2023-03-22 14:58:10 INFO  MongoDB is connected 
+2023-03-22 14:58:10 INFO  Server is up on port: 8080 
+2023-03-22 15:04:29 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 15:04:29 INFO  MongoDB connection with retry 
+2023-03-22 15:04:29 INFO  MongoDB is connected 
+2023-03-22 15:04:29 INFO  Server is up on port: 8080 
+2023-03-22 15:05:53 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 15:05:53 INFO  MongoDB connection with retry 
+2023-03-22 15:05:53 INFO  MongoDB is connected 
+2023-03-22 15:05:53 INFO  Server is up on port: 8080 
+2023-03-22 15:06:32 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 15:06:32 INFO  MongoDB connection with retry 
+2023-03-22 15:06:32 INFO  MongoDB is connected 
+2023-03-22 15:06:32 INFO  Server is up on port: 8080 
+2023-03-22 15:19:01 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 15:19:01 INFO  MongoDB connection with retry 
+2023-03-22 15:19:01 INFO  MongoDB is connected 
+2023-03-22 15:19:01 INFO  Server is up on port: 8080 
+2023-03-22 15:19:04 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 15:19:04 INFO  MongoDB connection with retry 
+2023-03-22 15:19:04 INFO  MongoDB is connected 
+2023-03-22 15:19:04 INFO  Server is up on port: 8080 
+2023-03-22 15:19:23 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 15:19:23 INFO  MongoDB connection with retry 
+2023-03-22 15:19:23 INFO  MongoDB is connected 
+2023-03-22 15:19:23 INFO  Server is up on port: 8080 
+2023-03-22 15:19:30 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 15:19:30 INFO  MongoDB connection with retry 
+2023-03-22 15:19:30 INFO  MongoDB is connected 
+2023-03-22 15:19:30 INFO  Server is up on port: 8080 
+2023-03-22 15:19:39 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 15:19:39 INFO  MongoDB connection with retry 
+2023-03-22 15:19:39 INFO  MongoDB is connected 
+2023-03-22 15:19:39 INFO  Server is up on port: 8080 
+2023-03-22 15:19:48 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 15:19:48 INFO  MongoDB connection with retry 
+2023-03-22 15:19:48 INFO  MongoDB is connected 
+2023-03-22 15:19:48 INFO  Server is up on port: 8080 
+2023-03-22 15:21:08 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 15:21:08 INFO  MongoDB connection with retry 
+2023-03-22 15:21:08 INFO  MongoDB is connected 
+2023-03-22 15:21:08 INFO  Server is up on port: 8080 
+2023-03-22 15:21:24 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 15:21:24 INFO  MongoDB connection with retry 
+2023-03-22 15:21:24 INFO  MongoDB is connected 
+2023-03-22 15:21:24 INFO  Server is up on port: 8080 
+2023-03-22 15:23:02 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 15:23:02 INFO  MongoDB connection with retry 
+2023-03-22 15:23:02 INFO  MongoDB is connected 
+2023-03-22 15:23:02 INFO  Server is up on port: 8080 
+2023-03-22 15:31:58 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 15:31:58 INFO  MongoDB connection with retry 
+2023-03-22 15:31:58 INFO  MongoDB is connected 
+2023-03-22 15:31:58 INFO  Server is up on port: 8080 
+2023-03-22 15:32:08 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 15:32:08 INFO  MongoDB connection with retry 
+2023-03-22 15:32:08 INFO  MongoDB is connected 
+2023-03-22 15:32:08 INFO  Server is up on port: 8080 
+2023-03-22 15:33:10 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 15:33:10 INFO  MongoDB connection with retry 
+2023-03-22 15:33:10 INFO  MongoDB is connected 
+2023-03-22 15:33:10 INFO  Server is up on port: 8080 
+2023-03-22 15:35:32 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 15:35:32 INFO  MongoDB connection with retry 
+2023-03-22 15:35:32 INFO  MongoDB is connected 
+2023-03-22 15:35:32 INFO  Server is up on port: 8080 
+2023-03-22 15:36:56 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 15:36:56 INFO  MongoDB connection with retry 
+2023-03-22 15:36:56 INFO  MongoDB is connected 
+2023-03-22 15:36:56 INFO  Server is up on port: 8080 
+2023-03-22 15:37:10 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 15:37:10 INFO  MongoDB connection with retry 
+2023-03-22 15:37:10 INFO  MongoDB is connected 
+2023-03-22 15:37:10 INFO  Server is up on port: 8080 
+2023-03-22 15:37:29 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 15:37:29 INFO  MongoDB connection with retry 
+2023-03-22 15:37:29 INFO  MongoDB is connected 
+2023-03-22 15:37:29 INFO  Server is up on port: 8080 
+2023-03-22 15:38:25 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 15:38:25 INFO  MongoDB connection with retry 
+2023-03-22 15:38:25 INFO  MongoDB is connected 
+2023-03-22 15:38:25 INFO  Server is up on port: 8080 
+2023-03-22 15:38:41 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 15:38:41 INFO  MongoDB connection with retry 
+2023-03-22 15:38:41 INFO  MongoDB is connected 
+2023-03-22 15:38:41 INFO  Server is up on port: 8080 
+2023-03-22 15:38:53 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 15:38:53 INFO  MongoDB connection with retry 
+2023-03-22 15:38:53 INFO  MongoDB is connected 
+2023-03-22 15:38:53 INFO  Server is up on port: 8080 
+2023-03-22 15:39:11 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 15:39:11 INFO  MongoDB connection with retry 
+2023-03-22 15:39:11 INFO  MongoDB is connected 
+2023-03-22 15:39:11 INFO  Server is up on port: 8080 
+2023-03-22 15:39:22 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 15:39:22 INFO  MongoDB connection with retry 
+2023-03-22 15:39:22 INFO  MongoDB is connected 
+2023-03-22 15:39:22 INFO  Server is up on port: 8080 
+2023-03-22 15:40:16 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 15:40:16 INFO  MongoDB connection with retry 
+2023-03-22 15:40:16 INFO  MongoDB is connected 
+2023-03-22 15:40:16 INFO  Server is up on port: 8080 
+2023-03-22 15:41:17 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 15:41:17 INFO  MongoDB connection with retry 
+2023-03-22 15:41:17 INFO  MongoDB is connected 
+2023-03-22 15:41:17 INFO  Server is up on port: 8080 
+2023-03-22 15:42:57 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 15:42:57 INFO  MongoDB connection with retry 
+2023-03-22 15:42:57 INFO  MongoDB is connected 
+2023-03-22 15:42:57 INFO  Server is up on port: 8080 
+2023-03-22 15:43:21 INFO  The Backend is Running on this config:{"environment":"development","port":"8080","database":{"MONGODB_URI":"mongodb://mongo:27017/TodoAppTest"}} 
+2023-03-22 15:43:21 INFO  MongoDB connection with retry 
+2023-03-22 15:43:21 INFO  MongoDB is connected 
+2023-03-22 15:43:21 INFO  Server is up on port: 8080 
+2023-03-22 15:43:52 INFO  MongoDB connection with retry 
+2023-03-22 15:43:52 INFO  MongoDB is connected 
+2023-03-22 15:43:52 INFO  Server is up on port: 8080 
+2023-03-22 15:45:22 INFO  MongoDB connection with retry 
+2023-03-22 15:45:22 INFO  MongoDB is connected 
+2023-03-22 15:45:22 INFO  Server is up on port: 8080 
+2023-03-22 15:46:35 INFO  MongoDB connection with retry 
+2023-03-22 15:46:35 INFO  MongoDB is connected 
+2023-03-22 15:46:35 INFO  Server is up on port: 8080 
+2023-03-22 15:47:39 INFO  MongoDB connection with retry 
+2023-03-22 15:47:39 INFO  MongoDB is connected 
+2023-03-22 15:47:39 INFO  Server is up on port: 8080 
+2023-03-22 15:49:19 INFO  MongoDB connection with retry 
+2023-03-22 15:49:19 INFO  MongoDB is connected 
+2023-03-22 15:49:19 INFO  Server is up on port: 8080 
