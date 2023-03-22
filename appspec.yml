@@ -8,6 +8,4 @@ Resources:
         LoadBalancerInfo:
           ContainerName: "TrendCartBackend"
           ContainerPort: 8000
-    Tags:
-      - Key: Name
-        Value: MyService
+        PlatformVersion: "LATEST"
