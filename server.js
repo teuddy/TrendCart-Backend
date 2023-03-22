@@ -11,6 +11,7 @@ const db = require("./db");
 const app = express();
 const {log} = require('./utils/helpers/logger')
 //no se
+//nos
 //bring route category for testing
 const {Category} = require('./models')
 
