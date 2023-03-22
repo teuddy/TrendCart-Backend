@@ -1,0 +1,98 @@
+{
+    "taskDefinitionArn": "arn:aws:ecs:us-east-1:837056842523:task-definition/TrendCartBackendTaskDefinitionSample:4",
+    "containerDefinitions": [
+        {
+            "name": "TrendCartBackend",
+            "image": "<IMAGE1_NAME>",
+            "cpu": 1,
+            "portMappings": [
+                {
+                    "containerPort": 8000,
+                    "hostPort": 8000,
+                    "protocol": "tcp"
+                }
+            ],
+            "essential": true,
+            "entryPoint": [],
+            "command": [],
+            "environment": [
+                {
+                    "name": "PORT",
+                    "value": "8000"
+                },
+                {
+                    "name": "MONGODB_URI",
+                    "value": "mongodb+srv://teuddycr:9207teuddy@cluster1.fj907.mongodb.net/staging?retryWrites=true&w=majority"
+                },
+                {
+                    "name": "NODE_ENV",
+                    "value": "staging"
+                }
+            ],
+            "mountPoints": [],
+            "volumesFrom": [],
+            "logConfiguration": {
+                "logDriver": "awslogs",
+                "options": {
+                    "awslogs-create-group": "true",
+                    "awslogs-group": "/ecs/TrendCartBackendTaskDefinitionSample",
+                    "awslogs-region": "us-east-1",
+                    "awslogs-stream-prefix": "ecs"
+                }
+            }
+        }
+    ],
+    "family": "TrendCartBackendTaskDefinitionSample",
+    "taskRoleArn": "arn:aws:iam::837056842523:role/ecsTaskExecutionRole",
+    "executionRoleArn": "arn:aws:iam::837056842523:role/ecsTaskExecutionRole",
+    "networkMode": "awsvpc",
+    "revision": 4,
+    "volumes": [],
+    "status": "ACTIVE",
+    "requiresAttributes": [
+        {
+            "name": "com.amazonaws.ecs.capability.logging-driver.awslogs"
+        },
+        {
+            "name": "ecs.capability.execution-role-awslogs"
+        },
+        {
+            "name": "com.amazonaws.ecs.capability.ecr-auth"
+        },
+        {
+            "name": "com.amazonaws.ecs.capability.docker-remote-api.1.19"
+        },
+        {
+            "name": "com.amazonaws.ecs.capability.task-iam-role"
+        },
+        {
+            "name": "ecs.capability.execution-role-ecr-pull"
+        },
+        {
+            "name": "com.amazonaws.ecs.capability.docker-remote-api.1.18"
+        },
+        {
+            "name": "ecs.capability.task-eni"
+        },
+        {
+            "name": "com.amazonaws.ecs.capability.docker-remote-api.1.29"
+        }
+    ],
+    "placementConstraints": [],
+    "compatibilities": [
+        "EC2",
+        "FARGATE"
+    ],
+    "requiresCompatibilities": [
+        "FARGATE"
+    ],
+    "cpu": "1024",
+    "memory": "3072",
+    "runtimePlatform": {
+        "cpuArchitecture": "X86_64",
+        "operatingSystemFamily": "LINUX"
+    },
+    "registeredAt": "2023-03-22T13:15:00.562Z",
+    "registeredBy": "arn:aws:iam::837056842523:root",
+    "tags": []
+}
