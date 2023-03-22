@@ -1,10 +1,10 @@
-version: 0.0
+version: 1
 Resources:
- - TargetService:
-     Type: AWS::ECS::Service
-     Properties:
-       TaskDefinition: <TASK_DEFINITION>
-       LoadBalancerInfo:
-         ContainerName: TrendCartBackend
-         ContainerPort: 8000
-
+- TargetService:
+    Type: AWS::ECS::Service
+    Properties:
+      TaskDefinition: <TASK_DEFINITION>
+      LoadBalancerInfo:
+        ContainerName: TrendCartBackend
+        ContainerPort: 8000
+      PlatformVersion: 1.4.0
