@@ -41,7 +41,12 @@ app.use('/v1',router)
 app.get('/saludos',(req,res)=>{
   res.send('hello world another version')
 })
-//heh
+
+app.get('/',(req,res)=>{
+  res.send("<h1>Hey, thanks for visiting!</h1>")
+})
+
+
 
 app.on("ready", () => {
   app.listen(environment.port, () => {
