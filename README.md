@@ -1,41 +1,79 @@
-#### Snippet of backend(Node.js)`DockerFile`
+# TrendCarts Online Shop - REST API
 
-You will find this `DockerFile` file in the root directory of the project.
+This repository contains the source code for the REST API of the TrendCarts Online Shop. This backend is built using Express.js, Node.js, MongoDB, Mongoose, and Stripe for payment processing. The application is containerized using Docker and deployed using AWS with a blue/green deployment strategy.
 
-```bash
-FROM node:13.13.0-stretch-slim
-#Argument that is passed from docer-compose.yaml file
-ARG NODE_PORT
-#Echo the argument to check passed argument loaded here correctly
-RUN echo "Argument port is : $NODE_PORT"
-# Create app directory
-WORKDIR /usr/src/app
-#COPY . .
-COPY . .
-# Install app dependencies
-# A wildcard is used to ensure both package.json AND package-lock.json are copied
-# where available (npm@5+)
-RUN npm install
-#In my case my app binds to port NODE_PORT so you'll use the EXPOSE instruction to have it mapped by the docker daemon:
-EXPOSE ${NODE_PORT}
-CMD npm run dev
-```
+## Table of Contents
 
-##### Explanation of backend(Node.js) `DockerFile`
+- [Features](#features)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Usage](#usage)
+- [API Documentation](#api-documentation)
+- [Testing](#testing)
+- [Deployment](#deployment)
+- [Contributing](#contributing)
+- [License](#license)
 
-- The first line tells Docker to use another Node image from the [DockerHub](https://hub.docker.com/). We’re using the official Docker image for Node.js and it’s version 10 image.
+## Features
 
-- On second line we declare argument `NODE_PORT` which we will pass it from `docker-compose`.
+- Categories management
+- Products management
+- Orders management
+- Reviews management
+- Payments processing
+- User authentication and authorization
 
-- On third line we log to check argument is successfully read 
+## Prerequisites
 
-- On fourth line we sets a working directory from where the app code will live inside the Docker container.
+- Node.js (v14.x or later)
+- MongoDB (v4.x or later)
+- Docker (v19.x or later)
+- AWS CLI (v2.x or later)
 
-- On fifth line, we are copying/bundling our code working directory into container working directory on line three.
+## Installation
 
-- On line seven, we run npm install for dependencies in container on line four.
+1. Clone the repository:
 
-- On Line eight, we setup the port, that Docker will expose when the container is running. In our case it is the port which we define inside `.env` file, read it from `docker-compose` then passed as a argument to the (backend)`DockerFile`.
+git clone https://github.com/teuddy/TrendCart-Backend
 
-- And in last, we tell docker to execute our app inside the container by using node to run `npm run dev. It is the command which I registered in __package.json__ in script section.
-###### :clipboard: `Note: For development purpose I used __nodemon__ , If you need to deploy at production you should change CMD from __npm run dev__ to __npm start__.`
+
+3. Install the dependencies:
+
+4. Create a `.env` file in the root directory and populate it with the required environment variables:
+
+
+5. Start the MongoDB server:
+
+
+6. Run the application:
+
+
+
+## Usage
+
+The API is accessible in production at `http://backend.trendcarts.net`.
+
+For local development, the API will be running at `http://localhost:{PORT_OF_THE_ENV}`.
+
+## API Documentation
+
+The API documentation can be found at the `/docs` endpoint, e.g., `http://backend.trendcarts.net/docs` for the production environment or `http://localhost:3000/docs` for local development.
+
+## Testing
+
+To run the test suite, execute the following command:
+
+npm test
+
+## Deployment
+
+The backend uses a aws codepipeline, just do a merge request.
+
+
+## Contributing
+
+Contributions are welcome! Please read our [contributing guidelines](CONTRIBUTING.md) to get started.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
