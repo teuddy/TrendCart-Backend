@@ -1,5 +1,5 @@
 {
-    "taskDefinitionArn": "arn:aws:ecs:us-east-1:837056842523:task-definition/TrendCartBackendTaskDefinitionSample:4",
+    "taskDefinitionArn": "<TASK_DEFINITION>",
     "containerDefinitions": [
         {
             "name": "TrendCartBackend",
