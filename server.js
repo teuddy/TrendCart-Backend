@@ -1,6 +1,9 @@
+
 /**
  * Created by Teuddy J. C. R.
  */
+const swaggerUi = require('swagger-ui-express');
+const swaggerDocs =require('./docs/definition')
 const config = require('./config/config.js')
 const express = require("express");
 // const path = require("path");
@@ -29,12 +32,17 @@ db.connect(
   environment.database
 );
 
+
 app.use(cors());
 app.use(express.json());
 // app.use(bodyParser.urlencoded({ extended: false }));
 // app.use(cookieParser());
 // app.use(express.static(path.join(__dirname, "public")));
 //ssjj
+
+
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocs));
+
 
 app.use('/v1',router)
 
