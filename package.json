@@ -21,6 +21,8 @@
     "mongodb": "^3.0.7",
     "mongoose": "^6.0.9",
     "simple-node-logger": "^18.12.23",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^4.6.2",
     "validator": "^13.7.0"
   },
   "devDependencies": {
