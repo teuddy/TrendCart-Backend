@@ -94,5 +94,10 @@
     },
     "registeredAt": "2023-03-22T13:15:00.562Z",
     "registeredBy": "arn:aws:iam::837056842523:root",
-    "tags": []
+    "tags": [
+        {
+            "key": "somesome",
+            "value": "somesome"
+        }
+    ]
 }
