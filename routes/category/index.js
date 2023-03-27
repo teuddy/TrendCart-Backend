@@ -35,18 +35,18 @@ router.get('/', (req, res) => {
  *     summary: Create a new category
  *     description: Creates a new category with the given name and description
  *     tags: [Categories]
- *     parameters:
- *       - in: body
- *         name: category
- *         required: true
- *         description: The category to create
- *         schema:
- *           type: object
- *           properties:
- *             name:
- *               type: string
- *             description:
- *               type: string
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: object
+ *             properties:
+ *               name:
+ *                 type: string
+ *                 required: true
+ *               description:
+ *                 type: string
  *     responses:
  *       200:
  *         description: OK
@@ -55,38 +55,9 @@ router.post('/', (req, res) => {
   const {name, description} = req.body
   const category = new Category({name,description});
   category.save().then((category) => {
-    console.log(category)
     res.json(category);
   }).catch((err) => {
       res.status(500).json({ error: err.message });
-  });
-});
-  
-
-
-/**
- * @swagger
- * /v1/categories/{id}:
- *   get:
- *     summary: Get a category by ID
- *     description: Returns a category with the given ID
- *     tags: [Categories]
- *     parameters:
- *       - in: path
- *         name: id
- *         required: true
- *         description: The ID of the category to get
- *         schema:
- *           type: string
- *     responses:
- *       200:
- *         description: OK
- */
-router.get('/:id', (req, res) => {
-  Category.findById(req.params.id).then((category) => {
-    res.json(category);
-  }).catch((err) => {
-    res.status(500).json({ error: err.message });
   });
 });
   
@@ -105,17 +76,17 @@ router.get('/:id', (req, res) => {
  *         description: The ID of the category to update
  *         schema:
  *           type: string
- *       - in: body
- *         name: category
- *         required: true
- *         description: The category data to update
- *         schema:
- *           type: object
- *           properties:
- *             name:
- *               type: string
- *             description:
- *               type: string
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: object
+ *             properties:
+ *               name:
+ *                 type: string
+ *               description:
+ *                 type: string
  *     responses:
  *       200:
  *         description: OK

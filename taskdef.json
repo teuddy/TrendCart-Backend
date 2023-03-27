@@ -27,6 +27,15 @@
                 {
                     "name": "NODE_ENV",
                     "value": "staging"
+                },
+                {
+                    "name": "JWT_SECRET",
+                    "value": "myreallygoodjwttokenpassword"
+                },
+                {
+                    "name": "STRIPE_SECRET_KEY",
+                    "value": "sk_test_51EumeOE8ngjffme6ZdoFus654l54KCh1szW7IlnoVgLbyerjSy20vH4LRoXkKayYvAtVEQspexm5WMwPk5ar9J4J00TeZlqONC"
+
                 }
             ],
             "mountPoints": [],
