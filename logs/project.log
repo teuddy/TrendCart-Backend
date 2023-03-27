@@ -1291,3 +1291,372 @@ MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefin
 2023-03-23 23:12:07 INFO  MongoDB connection with retry 
 2023-03-23 23:12:07 INFO  MongoDB is connected 
 2023-03-23 23:12:07 INFO  Server is up on port: 8080 
+2023-03-23 23:40:21 INFO  MongoDB connection with retry 
+2023-03-23 23:40:23 INFO  MongoDB is connected 
+2023-03-23 23:40:23 INFO  Server is up on port: 8080 
+2023-03-26 19:15:25 INFO  MongoDB connection with retry 
+2023-03-26 19:15:27 INFO  MongoDB is connected 
+2023-03-26 19:15:28 INFO  Server is up on port: 8080 
+2023-03-26 19:16:49 INFO  MongoDB connection with retry 
+2023-03-26 19:16:51 INFO  MongoDB is connected 
+2023-03-26 19:16:51 INFO  Server is up on port: 8080 
+2023-03-27 13:17:21 INFO  MongoDB connection with retry 
+2023-03-27 13:17:21 INFO  MongoDB is connected 
+2023-03-27 13:17:21 INFO  Server is up on port: 8080 
+2023-03-27 13:23:44 INFO  MongoDB connection with retry 
+2023-03-27 13:23:44 INFO  MongoDB is connected 
+2023-03-27 13:23:44 INFO  Server is up on port: 8080 
+2023-03-27 13:26:28 INFO  MongoDB connection with retry 
+2023-03-27 13:26:28 INFO  MongoDB is connected 
+2023-03-27 13:26:28 INFO  Server is up on port: 8080 
+2023-03-27 13:26:56 INFO  MongoDB connection with retry 
+2023-03-27 13:26:56 INFO  MongoDB is connected 
+2023-03-27 13:26:56 INFO  Server is up on port: 8080 
+2023-03-27 13:28:53 INFO  MongoDB connection with retry 
+2023-03-27 13:28:53 INFO  MongoDB is connected 
+2023-03-27 13:28:53 INFO  Server is up on port: 8080 
+2023-03-27 13:29:37 INFO  MongoDB connection with retry 
+2023-03-27 13:29:37 INFO  MongoDB is connected 
+2023-03-27 13:29:37 INFO  Server is up on port: 8080 
+2023-03-27 13:29:39 INFO  MongoDB connection with retry 
+2023-03-27 13:29:39 INFO  MongoDB is connected 
+2023-03-27 13:29:39 INFO  Server is up on port: 8080 
+2023-03-27 13:36:10 INFO  MongoDB connection with retry 
+2023-03-27 13:36:10 INFO  MongoDB is connected 
+2023-03-27 13:36:10 INFO  Server is up on port: 8080 
+2023-03-27 13:37:15 INFO  MongoDB connection with retry 
+2023-03-27 13:37:15 INFO  MongoDB is connected 
+2023-03-27 13:37:15 INFO  Server is up on port: 8080 
+2023-03-27 13:38:36 INFO  MongoDB connection with retry 
+2023-03-27 13:38:36 INFO  MongoDB is connected 
+2023-03-27 13:38:36 INFO  Server is up on port: 8080 
+2023-03-27 13:39:52 INFO  MongoDB connection with retry 
+2023-03-27 13:39:52 INFO  MongoDB is connected 
+2023-03-27 13:39:52 INFO  Server is up on port: 8080 
+2023-03-27 13:40:32 INFO  MongoDB connection with retry 
+2023-03-27 13:40:32 INFO  MongoDB is connected 
+2023-03-27 13:40:32 INFO  Server is up on port: 8080 
+2023-03-27 13:42:19 INFO  MongoDB connection with retry 
+2023-03-27 13:42:19 INFO  MongoDB is connected 
+2023-03-27 13:42:19 INFO  Server is up on port: 8080 
+2023-03-27 13:42:44 INFO  MongoDB connection with retry 
+2023-03-27 13:42:44 INFO  MongoDB is connected 
+2023-03-27 13:42:44 INFO  Server is up on port: 8080 
+2023-03-27 13:45:27 INFO  MongoDB connection with retry 
+2023-03-27 13:45:27 INFO  MongoDB is connected 
+2023-03-27 13:45:27 INFO  Server is up on port: 8080 
+2023-03-27 13:45:34 INFO  MongoDB connection with retry 
+2023-03-27 13:45:34 INFO  MongoDB is connected 
+2023-03-27 13:45:34 INFO  Server is up on port: 8080 
+2023-03-27 13:48:18 INFO  MongoDB connection with retry 
+2023-03-27 13:48:18 INFO  MongoDB is connected 
+2023-03-27 13:48:18 INFO  Server is up on port: 8080 
+2023-03-27 13:49:58 INFO  MongoDB connection with retry 
+2023-03-27 13:49:58 INFO  MongoDB is connected 
+2023-03-27 13:49:58 INFO  Server is up on port: 8080 
+2023-03-27 13:50:41 INFO  MongoDB connection with retry 
+2023-03-27 13:50:41 INFO  MongoDB is connected 
+2023-03-27 13:50:41 INFO  Server is up on port: 8080 
+2023-03-27 13:51:11 INFO  MongoDB connection with retry 
+2023-03-27 13:51:11 INFO  MongoDB is connected 
+2023-03-27 13:51:11 INFO  Server is up on port: 8080 
+2023-03-27 13:51:28 INFO  MongoDB connection with retry 
+2023-03-27 13:51:28 INFO  MongoDB is connected 
+2023-03-27 13:51:28 INFO  Server is up on port: 8080 
+2023-03-27 13:51:55 INFO  MongoDB connection with retry 
+2023-03-27 13:51:55 INFO  MongoDB is connected 
+2023-03-27 13:51:55 INFO  Server is up on port: 8080 
+2023-03-27 13:53:59 INFO  MongoDB connection with retry 
+2023-03-27 13:53:59 INFO  MongoDB is connected 
+2023-03-27 13:53:59 INFO  Server is up on port: 8080 
+2023-03-27 13:55:54 INFO  MongoDB connection with retry 
+2023-03-27 13:55:54 INFO  MongoDB is connected 
+2023-03-27 13:55:54 INFO  Server is up on port: 8080 
+2023-03-27 13:56:56 INFO  MongoDB connection with retry 
+2023-03-27 13:56:56 INFO  MongoDB is connected 
+2023-03-27 13:56:56 INFO  Server is up on port: 8080 
+2023-03-27 13:57:04 INFO  MongoDB connection with retry 
+2023-03-27 13:57:04 INFO  MongoDB is connected 
+2023-03-27 13:57:04 INFO  Server is up on port: 8080 
+2023-03-27 13:57:13 INFO  MongoDB connection with retry 
+2023-03-27 13:57:13 INFO  MongoDB is connected 
+2023-03-27 13:57:13 INFO  Server is up on port: 8080 
+2023-03-27 13:57:51 INFO  MongoDB connection with retry 
+2023-03-27 13:57:51 INFO  MongoDB is connected 
+2023-03-27 13:57:51 INFO  Server is up on port: 8080 
+2023-03-27 14:00:04 INFO  MongoDB connection with retry 
+2023-03-27 14:00:04 INFO  MongoDB is connected 
+2023-03-27 14:00:04 INFO  Server is up on port: 8080 
+2023-03-27 14:04:02 INFO  MongoDB connection with retry 
+2023-03-27 14:04:02 INFO  MongoDB is connected 
+2023-03-27 14:04:02 INFO  Server is up on port: 8080 
+2023-03-27 14:05:21 INFO  MongoDB connection with retry 
+2023-03-27 14:05:21 INFO  MongoDB is connected 
+2023-03-27 14:05:21 INFO  Server is up on port: 8080 
+2023-03-27 14:07:08 INFO  MongoDB connection with retry 
+2023-03-27 14:07:08 INFO  MongoDB is connected 
+2023-03-27 14:07:08 INFO  Server is up on port: 8080 
+2023-03-27 14:12:31 INFO  MongoDB connection with retry 
+2023-03-27 14:12:32 INFO  MongoDB is connected 
+2023-03-27 14:12:32 INFO  Server is up on port: 8080 
+2023-03-27 14:13:36 INFO  MongoDB connection with retry 
+2023-03-27 14:13:36 INFO  MongoDB is connected 
+2023-03-27 14:13:36 INFO  Server is up on port: 8080 
+2023-03-27 14:13:47 INFO  MongoDB connection with retry 
+2023-03-27 14:13:47 INFO  MongoDB is connected 
+2023-03-27 14:13:47 INFO  Server is up on port: 8080 
+2023-03-27 14:16:37 INFO  MongoDB connection with retry 
+2023-03-27 14:16:37 INFO  MongoDB is connected 
+2023-03-27 14:16:37 INFO  Server is up on port: 8080 
+2023-03-27 14:16:58 INFO  MongoDB connection with retry 
+2023-03-27 14:16:58 INFO  MongoDB is connected 
+2023-03-27 14:16:58 INFO  Server is up on port: 8080 
+2023-03-27 14:17:26 INFO  MongoDB connection with retry 
+2023-03-27 14:17:26 INFO  MongoDB is connected 
+2023-03-27 14:17:26 INFO  Server is up on port: 8080 
+2023-03-27 14:17:52 INFO  MongoDB connection with retry 
+2023-03-27 14:17:52 INFO  MongoDB is connected 
+2023-03-27 14:17:52 INFO  Server is up on port: 8080 
+2023-03-27 14:18:12 INFO  MongoDB connection with retry 
+2023-03-27 14:18:12 INFO  MongoDB is connected 
+2023-03-27 14:18:12 INFO  Server is up on port: 8080 
+2023-03-27 14:18:16 INFO  MongoDB connection with retry 
+2023-03-27 14:18:16 INFO  MongoDB is connected 
+2023-03-27 14:18:16 INFO  Server is up on port: 8080 
+2023-03-27 14:18:30 INFO  MongoDB connection with retry 
+2023-03-27 14:18:31 INFO  MongoDB is connected 
+2023-03-27 14:18:31 INFO  Server is up on port: 8080 
+2023-03-27 14:18:43 INFO  MongoDB connection with retry 
+2023-03-27 14:18:43 INFO  MongoDB is connected 
+2023-03-27 14:18:43 INFO  Server is up on port: 8080 
+2023-03-27 14:19:45 INFO  MongoDB connection with retry 
+2023-03-27 14:19:45 INFO  MongoDB is connected 
+2023-03-27 14:19:45 INFO  Server is up on port: 8080 
+2023-03-27 14:20:05 INFO  MongoDB connection with retry 
+2023-03-27 14:20:05 INFO  MongoDB is connected 
+2023-03-27 14:20:05 INFO  Server is up on port: 8080 
+2023-03-27 14:20:10 INFO  MongoDB connection with retry 
+2023-03-27 14:20:10 INFO  MongoDB is connected 
+2023-03-27 14:20:10 INFO  Server is up on port: 8080 
+2023-03-27 14:20:15 INFO  MongoDB connection with retry 
+2023-03-27 14:20:15 INFO  MongoDB is connected 
+2023-03-27 14:20:15 INFO  Server is up on port: 8080 
+2023-03-27 14:21:15 INFO  MongoDB connection with retry 
+2023-03-27 14:21:15 INFO  MongoDB is connected 
+2023-03-27 14:21:15 INFO  Server is up on port: 8080 
+2023-03-27 14:23:08 INFO  MongoDB connection with retry 
+2023-03-27 14:23:08 INFO  MongoDB is connected 
+2023-03-27 14:23:08 INFO  Server is up on port: 8080 
+2023-03-27 14:23:38 INFO  MongoDB connection with retry 
+2023-03-27 14:23:38 INFO  MongoDB is connected 
+2023-03-27 14:23:38 INFO  Server is up on port: 8080 
+2023-03-27 14:28:31 INFO  MongoDB connection with retry 
+2023-03-27 14:28:32 INFO  MongoDB is connected 
+2023-03-27 14:28:32 INFO  Server is up on port: 8080 
+2023-03-27 14:29:44 INFO  MongoDB connection with retry 
+2023-03-27 14:29:44 INFO  MongoDB is connected 
+2023-03-27 14:29:44 INFO  Server is up on port: 8080 
+2023-03-27 14:29:51 INFO  MongoDB connection with retry 
+2023-03-27 14:29:51 INFO  MongoDB is connected 
+2023-03-27 14:29:51 INFO  Server is up on port: 8080 
+2023-03-27 14:30:15 INFO  MongoDB connection with retry 
+2023-03-27 14:30:15 INFO  MongoDB is connected 
+2023-03-27 14:30:15 INFO  Server is up on port: 8080 
+2023-03-27 14:30:36 INFO  MongoDB connection with retry 
+2023-03-27 14:30:36 INFO  MongoDB is connected 
+2023-03-27 14:30:36 INFO  Server is up on port: 8080 
+2023-03-27 14:30:45 INFO  MongoDB connection with retry 
+2023-03-27 14:30:45 INFO  MongoDB is connected 
+2023-03-27 14:30:45 INFO  Server is up on port: 8080 
+2023-03-27 14:30:50 INFO  MongoDB connection with retry 
+2023-03-27 14:30:50 INFO  MongoDB is connected 
+2023-03-27 14:30:50 INFO  Server is up on port: 8080 
+2023-03-27 14:31:09 INFO  MongoDB connection with retry 
+2023-03-27 14:31:09 INFO  MongoDB is connected 
+2023-03-27 14:31:09 INFO  Server is up on port: 8080 
+2023-03-27 14:33:38 INFO  MongoDB connection with retry 
+2023-03-27 14:33:38 INFO  MongoDB is connected 
+2023-03-27 14:33:38 INFO  Server is up on port: 8080 
+2023-03-27 14:33:53 INFO  MongoDB connection with retry 
+2023-03-27 14:33:53 INFO  MongoDB is connected 
+2023-03-27 14:33:53 INFO  Server is up on port: 8080 
+2023-03-27 14:34:14 INFO  MongoDB connection with retry 
+2023-03-27 14:34:14 INFO  MongoDB is connected 
+2023-03-27 14:34:14 INFO  Server is up on port: 8080 
+2023-03-27 14:34:15 INFO  MongoDB connection with retry 
+2023-03-27 14:34:15 INFO  MongoDB is connected 
+2023-03-27 14:34:15 INFO  Server is up on port: 8080 
+2023-03-27 14:34:24 INFO  MongoDB connection with retry 
+2023-03-27 14:34:24 INFO  MongoDB is connected 
+2023-03-27 14:34:24 INFO  Server is up on port: 8080 
+2023-03-27 14:34:46 INFO  MongoDB connection with retry 
+2023-03-27 14:34:46 INFO  MongoDB is connected 
+2023-03-27 14:34:46 INFO  Server is up on port: 8080 
+2023-03-27 14:34:55 INFO  MongoDB connection with retry 
+2023-03-27 14:34:55 INFO  MongoDB is connected 
+2023-03-27 14:34:55 INFO  Server is up on port: 8080 
+2023-03-27 14:39:14 INFO  MongoDB connection with retry 
+2023-03-27 14:39:14 INFO  MongoDB is connected 
+2023-03-27 14:39:14 INFO  Server is up on port: 8080 
+2023-03-27 14:41:57 INFO  MongoDB connection with retry 
+2023-03-27 14:41:57 INFO  MongoDB is connected 
+2023-03-27 14:41:57 INFO  Server is up on port: 8080 
+2023-03-27 14:43:07 INFO  MongoDB connection with retry 
+2023-03-27 14:43:07 INFO  MongoDB is connected 
+2023-03-27 14:43:07 INFO  Server is up on port: 8080 
+2023-03-27 14:46:07 INFO  MongoDB connection with retry 
+2023-03-27 14:46:07 INFO  MongoDB is connected 
+2023-03-27 14:46:07 INFO  Server is up on port: 8080 
+2023-03-27 14:48:02 INFO  MongoDB connection with retry 
+2023-03-27 14:48:02 INFO  MongoDB is connected 
+2023-03-27 14:48:02 INFO  Server is up on port: 8080 
+2023-03-27 14:48:57 INFO  MongoDB connection with retry 
+2023-03-27 14:48:58 INFO  MongoDB is connected 
+2023-03-27 14:48:58 INFO  Server is up on port: 8080 
+2023-03-27 15:31:25 INFO  MongoDB connection with retry 
+2023-03-27 15:31:25 INFO  MongoDB is connected 
+2023-03-27 15:31:25 INFO  Server is up on port: 8080 
+2023-03-27 15:33:54 INFO  MongoDB connection with retry 
+2023-03-27 15:33:55 INFO  MongoDB is connected 
+2023-03-27 15:33:55 INFO  Server is up on port: 8080 
+2023-03-27 15:34:34 INFO  MongoDB connection with retry 
+2023-03-27 15:34:34 INFO  MongoDB is connected 
+2023-03-27 15:34:34 INFO  Server is up on port: 8080 
+2023-03-27 15:40:19 INFO  MongoDB connection with retry 
+2023-03-27 15:40:19 INFO  MongoDB is connected 
+2023-03-27 15:40:19 INFO  Server is up on port: 8080 
+2023-03-27 15:42:17 INFO  MongoDB connection with retry 
+2023-03-27 15:42:17 INFO  MongoDB is connected 
+2023-03-27 15:42:17 INFO  Server is up on port: 8080 
+2023-03-27 15:46:14 INFO  MongoDB connection with retry 
+2023-03-27 15:46:14 INFO  MongoDB is connected 
+2023-03-27 15:46:14 INFO  Server is up on port: 8080 
+2023-03-27 15:47:12 INFO  MongoDB connection with retry 
+2023-03-27 15:47:12 INFO  MongoDB is connected 
+2023-03-27 15:47:12 INFO  Server is up on port: 8080 
+2023-03-27 15:47:54 INFO  MongoDB connection with retry 
+2023-03-27 15:47:54 INFO  MongoDB is connected 
+2023-03-27 15:47:54 INFO  Server is up on port: 8080 
+2023-03-27 15:49:27 INFO  MongoDB connection with retry 
+2023-03-27 15:49:27 INFO  MongoDB is connected 
+2023-03-27 15:49:27 INFO  Server is up on port: 8080 
+2023-03-27 15:50:27 INFO  MongoDB connection with retry 
+2023-03-27 15:50:27 INFO  MongoDB is connected 
+2023-03-27 15:50:27 INFO  Server is up on port: 8080 
+2023-03-27 15:50:30 INFO  MongoDB connection with retry 
+2023-03-27 15:50:30 INFO  MongoDB is connected 
+2023-03-27 15:50:30 INFO  Server is up on port: 8080 
+2023-03-27 15:51:10 INFO  MongoDB connection with retry 
+2023-03-27 15:51:10 INFO  MongoDB is connected 
+2023-03-27 15:51:10 INFO  Server is up on port: 8080 
+2023-03-27 15:51:41 INFO  MongoDB connection with retry 
+2023-03-27 15:51:41 INFO  MongoDB is connected 
+2023-03-27 15:51:41 INFO  Server is up on port: 8080 
+2023-03-27 15:52:12 INFO  MongoDB connection with retry 
+2023-03-27 15:52:12 INFO  MongoDB is connected 
+2023-03-27 15:52:12 INFO  Server is up on port: 8080 
+2023-03-27 15:52:48 INFO  MongoDB connection with retry 
+2023-03-27 15:52:48 INFO  MongoDB is connected 
+2023-03-27 15:52:48 INFO  Server is up on port: 8080 
+2023-03-27 15:53:54 INFO  MongoDB connection with retry 
+2023-03-27 15:53:55 INFO  MongoDB is connected 
+2023-03-27 15:53:55 INFO  Server is up on port: 8080 
+2023-03-27 15:56:03 INFO  MongoDB connection with retry 
+2023-03-27 15:56:03 INFO  MongoDB is connected 
+2023-03-27 15:56:03 INFO  Server is up on port: 8080 
+2023-03-27 15:59:20 INFO  MongoDB connection with retry 
+2023-03-27 15:59:20 INFO  MongoDB is connected 
+2023-03-27 15:59:20 INFO  Server is up on port: 8080 
+2023-03-27 16:02:50 INFO  MongoDB connection with retry 
+2023-03-27 16:02:50 INFO  MongoDB is connected 
+2023-03-27 16:02:50 INFO  Server is up on port: 8080 
+2023-03-27 16:05:38 INFO  MongoDB connection with retry 
+2023-03-27 16:05:38 INFO  MongoDB is connected 
+2023-03-27 16:05:38 INFO  Server is up on port: 8080 
+2023-03-27 16:05:40 INFO  MongoDB connection with retry 
+2023-03-27 16:05:40 INFO  MongoDB is connected 
+2023-03-27 16:05:40 INFO  Server is up on port: 8080 
+2023-03-27 16:09:21 INFO  MongoDB connection with retry 
+2023-03-27 16:09:21 INFO  MongoDB is connected 
+2023-03-27 16:09:21 INFO  Server is up on port: 8080 
+2023-03-27 16:12:41 INFO  MongoDB connection with retry 
+2023-03-27 16:12:41 INFO  MongoDB is connected 
+2023-03-27 16:12:41 INFO  Server is up on port: 8080 
+2023-03-27 16:16:02 INFO  MongoDB connection with retry 
+2023-03-27 16:16:02 INFO  MongoDB is connected 
+2023-03-27 16:16:02 INFO  Server is up on port: 8080 
+2023-03-27 16:16:19 INFO  MongoDB connection with retry 
+2023-03-27 16:16:19 INFO  MongoDB is connected 
+2023-03-27 16:16:19 INFO  Server is up on port: 8080 
+2023-03-27 16:16:48 INFO  MongoDB connection with retry 
+2023-03-27 16:16:48 INFO  MongoDB is connected 
+2023-03-27 16:16:48 INFO  Server is up on port: 8080 
+2023-03-27 16:17:37 INFO  MongoDB connection with retry 
+2023-03-27 16:17:37 INFO  MongoDB is connected 
+2023-03-27 16:17:37 INFO  Server is up on port: 8080 
+2023-03-27 16:18:10 INFO  MongoDB connection with retry 
+2023-03-27 16:18:10 INFO  MongoDB is connected 
+2023-03-27 16:18:10 INFO  Server is up on port: 8080 
+2023-03-27 16:19:22 INFO  MongoDB connection with retry 
+2023-03-27 16:19:22 INFO  MongoDB is connected 
+2023-03-27 16:19:22 INFO  Server is up on port: 8080 
+2023-03-27 16:19:44 INFO  MongoDB connection with retry 
+2023-03-27 16:19:44 INFO  MongoDB is connected 
+2023-03-27 16:19:44 INFO  Server is up on port: 8080 
+2023-03-27 16:36:43 INFO  MongoDB connection with retry 
+2023-03-27 16:36:44 INFO  MongoDB is connected 
+2023-03-27 16:36:44 INFO  Server is up on port: 8080 
+2023-03-27 16:39:39 INFO  MongoDB connection with retry 
+2023-03-27 16:39:39 INFO  MongoDB is connected 
+2023-03-27 16:39:39 INFO  Server is up on port: 8080 
+2023-03-27 16:42:06 INFO  MongoDB connection with retry 
+2023-03-27 16:42:07 INFO  MongoDB is connected 
+2023-03-27 16:42:07 INFO  Server is up on port: 8080 
+2023-03-27 16:45:48 INFO  MongoDB connection with retry 
+2023-03-27 16:45:50 INFO  MongoDB is connected 
+2023-03-27 16:45:50 INFO  Server is up on port: 8080 
+2023-03-27 16:48:16 INFO  MongoDB connection with retry 
+2023-03-27 16:48:17 INFO  MongoDB is connected 
+2023-03-27 16:48:17 INFO  Server is up on port: 8080 
+2023-03-27 16:52:25 INFO  MongoDB connection with retry 
+2023-03-27 16:52:26 INFO  MongoDB is connected 
+2023-03-27 16:52:26 INFO  Server is up on port: 8080 
+2023-03-27 17:04:34 INFO  MongoDB connection with retry 
+2023-03-27 17:04:34 INFO  MongoDB is connected 
+2023-03-27 17:04:34 INFO  Server is up on port: 8080 
+2023-03-27 17:17:30 INFO  MongoDB connection with retry 
+2023-03-27 17:17:31 INFO  MongoDB is connected 
+2023-03-27 17:17:31 INFO  Server is up on port: 8080 
+2023-03-27 17:22:04 INFO  MongoDB connection with retry 
+2023-03-27 17:22:04 INFO  MongoDB is connected 
+2023-03-27 17:22:04 INFO  Server is up on port: 8080 
+2023-03-27 17:28:57 INFO  MongoDB connection with retry 
+2023-03-27 17:28:57 INFO  MongoDB is connected 
+2023-03-27 17:28:57 INFO  Server is up on port: 8080 
+2023-03-27 17:35:57 INFO  MongoDB connection with retry 
+2023-03-27 17:35:57 INFO  MongoDB is connected 
+2023-03-27 17:35:57 INFO  Server is up on port: 8080 
+2023-03-27 17:37:23 INFO  MongoDB connection with retry 
+2023-03-27 17:37:23 INFO  MongoDB is connected 
+2023-03-27 17:37:23 INFO  Server is up on port: 8080 
+2023-03-27 17:42:25 INFO  MongoDB connection with retry 
+2023-03-27 17:42:25 INFO  MongoDB is connected 
+2023-03-27 17:42:25 INFO  Server is up on port: 8080 
+2023-03-27 17:50:01 INFO  MongoDB connection with retry 
+2023-03-27 17:50:01 INFO  MongoDB is connected 
+2023-03-27 17:50:01 INFO  Server is up on port: 8080 
+2023-03-27 17:50:50 INFO  MongoDB connection with retry 
+2023-03-27 17:50:50 INFO  MongoDB is connected 
+2023-03-27 17:50:50 INFO  Server is up on port: 8080 
+2023-03-27 17:51:18 INFO  MongoDB connection with retry 
+2023-03-27 17:51:18 INFO  MongoDB is connected 
+2023-03-27 17:51:18 INFO  Server is up on port: 8080 
+2023-03-27 17:51:41 INFO  MongoDB connection with retry 
+2023-03-27 17:51:41 INFO  MongoDB is connected 
+2023-03-27 17:51:41 INFO  Server is up on port: 8080 
+2023-03-27 17:52:49 INFO  MongoDB connection with retry 
+2023-03-27 17:52:49 INFO  MongoDB is connected 
+2023-03-27 17:52:49 INFO  Server is up on port: 8080 
+2023-03-27 17:52:54 INFO  MongoDB connection with retry 
+2023-03-27 17:52:54 INFO  MongoDB is connected 
+2023-03-27 17:52:54 INFO  Server is up on port: 8080 

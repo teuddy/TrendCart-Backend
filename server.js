@@ -33,7 +33,9 @@ db.connect(
 );
 
 
-app.use(cors());
+//corts enable just trencarts host
+app.use(cors({origin: 'http://trendcarts.net'}));
+
 app.use(express.json());
 // app.use(bodyParser.urlencoded({ extended: false }));
 // app.use(cookieParser());
