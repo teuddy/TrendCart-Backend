@@ -14,17 +14,31 @@ const swaggerOptions = {
         name: 'Categories',
         description: 'API for categories in your application, used to group related products.',
       },
+     
       {
         name: 'Products',
         description: 'API for products in your application',
       },
+      {
+        name: 'Users',
+        description: 'Api for users, create, profile, update users details',
+      },
+      {
+        name: 'Payments',
+        description: 'charge users for the products then create the order',
+      },
+      {
+        name: 'Reviews',
+        description: 'let users review products',
+      },
       // Add more tags for each route group here...
     ],
+    
   },
-  apis: ['./routes/category/index.js'],
+  apis: ['./routes/user/index.js','./routes/category/index.js','./routes/product/index.js','./routes/review/index.js','./routes/payment/index.js'],
 };
   const swaggerDocs = swaggerJSDoc(swaggerOptions);
-
+//
   
 
   module.exports = swaggerDocs;
