@@ -3,6 +3,7 @@
 const express = require('express')
 const router = express.Router();
 const {Payment} = require('../../models')
+const bodyParser = require('body-parser');
 const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
 
 
@@ -58,9 +59,11 @@ router.post('/charge',  async (req, res) => {
   }
 });
 
+//hay que usar body-parser para poder usar req.body del stripe 
 
 
-router.post('/webhook', async (req, res) => {
+
+router.post('/webhook', bodyParser.raw({ type: 'application/json' }), async (req, res) => {
   let event;
 
   try {
