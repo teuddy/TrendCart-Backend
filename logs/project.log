@@ -1699,3 +1699,21 @@ MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefin
 2023-03-29 14:45:28 INFO  MongoDB connection with retry 
 2023-03-29 14:45:28 INFO  MongoDB is connected 
 2023-03-29 14:45:28 INFO  Server is up on port: 8080 
+2023-03-29 14:57:40 INFO  MongoDB connection with retry 
+2023-03-29 14:57:41 INFO  MongoDB is connected 
+2023-03-29 14:57:41 INFO  Server is up on port: 8080 
+2023-03-29 15:03:31 INFO  MongoDB connection with retry 
+2023-03-29 15:03:31 INFO  MongoDB is connected 
+2023-03-29 15:03:31 INFO  Server is up on port: 8080 
+2023-03-29 15:04:21 INFO  MongoDB connection with retry 
+2023-03-29 15:04:21 INFO  MongoDB is connected 
+2023-03-29 15:04:21 INFO  Server is up on port: 8080 
+2023-03-29 15:04:55 INFO  MongoDB connection with retry 
+2023-03-29 15:04:55 INFO  MongoDB is connected 
+2023-03-29 15:04:55 INFO  Server is up on port: 8080 
+2023-03-29 15:05:01 INFO  MongoDB connection with retry 
+2023-03-29 15:05:01 INFO  MongoDB is connected 
+2023-03-29 15:05:01 INFO  Server is up on port: 8080 
+2023-03-29 15:05:06 INFO  MongoDB connection with retry 
+2023-03-29 15:05:06 INFO  MongoDB is connected 
+2023-03-29 15:05:06 INFO  Server is up on port: 8080 
