@@ -59,6 +59,32 @@ router.post('/charge',  async (req, res) => {
 });
 
 
+
+router.post('/webhook', async (req, res) => {
+  let event;
+
+  try {
+    event = stripe.webhooks.constructEvent(
+      req.body,
+      req.headers['stripe-signature'],
+      process.env.STRIPE_WEBHOOK_SECRET
+    );
+  } catch (err) {
+    console.error('Webhook signature verification failed:', err.message);
+    return res.status(400).send(`Webhook error: ${err.message}`);
+  }
+
+  if (event.type === 'payment_intent.succeeded') {
+    const paymentIntent = event.data.object;
+    console.log('Payment succeeded:', paymentIntent.id);
+    // Handle successful payment
+  }
+
+  // Other event types can be handled here if needed
+
+  res.status(200).send();
+});
+
       
 
 
