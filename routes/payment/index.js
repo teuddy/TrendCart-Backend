@@ -43,12 +43,13 @@ const {isAuthenticated,createToken} = require('../../auth/auth')
 
 router.post('/charge', isAuthenticated, async (req, res) => {
   try {
+    console.log(req.user)
     const paymentIntent = await stripe.paymentIntents.create({
       amount: 1000, // amount in cents
       currency: 'usd',
       metadata: {
         webhookEndpoint: process.env.WEBHOOK_ENDPOINT,
-        user: req.user
+        user: req.user._id,
       }
     });
     
