@@ -80,40 +80,51 @@ router.post('/webhook', bodyParser.raw({ type: 'application/json' }), async (req
     console.error('Webhook signature verification failed:', err.message);
     return res.status(400).send(`Webhook error: ${err.message}`);
   }
-
-  //get payment itnent metadata
+  //get paymentIntent
   const paymentIntent = event.data.object;
-  const user = paymentIntent.metadata.user;
 
-  console.log("este es el objeto payment intent", paymentIntent);
-  console.log("este es el usuario que lo hizo", user);
+  //if event is payment intent no matter the status
+  if (event.type.includes('payment_intent')) {
+       //esta es la metadata del user id del payment intent. etc
+    const userId = paymentIntent.metadata.userId;
+    //if payment intent already exists in the db just update the status
+    Payment.find({ paymentIntentId: paymentIntent.id }, async (err, payment) => {
+      if (err) {
+        console.error(err);
+        return res.status(500).send({ error: 'Failed to find payment intent' });
+      }
+      if (payment.length) {
+        const updatedPayment = await Payment.findOneAndUpdate(
+          { paymentIntentId: paymentIntent.id },
+          { paymentIntentStatus: paymentIntent.status },
+          { new: true }
+        );
+        return res.status(200).send(updatedPayment);
+      }
+      //if payment intent does not exist in the db create it
+      else {
+        const newPayment = new Payment({
+          user: userId,
+          amount: paymentIntent.amount,
+          currency: paymentIntent.currency,
+          paymentMethodType: paymentIntent.payment_method_types[0],
+          paymentIntentId: paymentIntent.id,
+          paymentIntentStatus: paymentIntent.status,
+ 
+          
+        });
+        const savedPayment = await newPayment.save();
+        return res.status(200).send(savedPayment);
+      }
+    }
+    );
+  }
 
-  // //create Payment
-  // const payment = new Payment({
-  //   user: user._id,
-  //   amount: paymentIntent.amount,
-  //   currency: paymentIntent.currency,
-  //   status: paymentIntent.status,
-  //   paymentIntentId: paymentIntent.id
-  // });
 
 
 
-
-
-  //list al events types of payment intent
-  //https://stripe.com/docs/api/payment_intents/object#payment_intent_object-status
-
-  // if (event.type === 'payment_intent.succeeded') {
-  //   const paymentIntent = event.data.object;
-  //   console.log(paymentIntent);
-  //   // Handle successful payment
-  // }
-
-  
-
-  res.status(200).send();
 });
+
 
       
 
