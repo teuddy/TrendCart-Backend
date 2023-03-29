@@ -19,15 +19,21 @@ const paymentSchema = new mongoose.Schema({
     type: String,
     required: true,
 },
-paymentMethod: {
+//what type of payment method was used
+paymentMethodType: {
   type: String,
   required: true,
-  enum: ['Stripe']
 },
 paymentIntentId: {
   type: String,
   required: true
 },
+paymentIntentStatus: {
+  type: String,
+  required: true,
+  enum:['succeeded', 'processing', 'requires_payment_method', 'requires_confirmation', 'requires_action', 'canceled']
+},
+
 createdAt: {
   type: Date,
   default: Date.now

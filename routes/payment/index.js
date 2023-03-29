@@ -5,6 +5,7 @@ const router = express.Router();
 const {Payment} = require('../../models')
 const bodyParser = require('body-parser');
 const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
+const {isAuthenticated,createToken} = require('../../auth/auth')
 
 
 /**
@@ -40,13 +41,14 @@ const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
  *         description: Server error
  */
 
-router.post('/charge',  async (req, res) => {
+router.post('/charge', isAuthenticated, async (req, res) => {
   try {
     const paymentIntent = await stripe.paymentIntents.create({
       amount: 1000, // amount in cents
       currency: 'usd',
       metadata: {
-        webhookEndpoint: process.env.WEBHOOK_ENDPOINT
+        webhookEndpoint: process.env.WEBHOOK_ENDPOINT,
+        user: req.user
       }
     });
     
@@ -77,13 +79,36 @@ router.post('/webhook', bodyParser.raw({ type: 'application/json' }), async (req
     return res.status(400).send(`Webhook error: ${err.message}`);
   }
 
-  if (event.type === 'payment_intent.succeeded') {
-    const paymentIntent = event.data.object;
-    console.log('Payment succeeded:', paymentIntent.id);
-    // Handle successful payment
-  }
+  //get payment itnent metadata
+  const paymentIntent = event.data.object;
+  const user = paymentIntent.metadata.user;
 
-  // Other event types can be handled here if needed
+  console.log("este es el objeto payment intent", paymentIntent);
+  console.log("este es el usuario que lo hizo", user);
+
+  // //create Payment
+  // const payment = new Payment({
+  //   user: user._id,
+  //   amount: paymentIntent.amount,
+  //   currency: paymentIntent.currency,
+  //   status: paymentIntent.status,
+  //   paymentIntentId: paymentIntent.id
+  // });
+
+
+
+
+
+  //list al events types of payment intent
+  //https://stripe.com/docs/api/payment_intents/object#payment_intent_object-status
+
+  // if (event.type === 'payment_intent.succeeded') {
+  //   const paymentIntent = event.data.object;
+  //   console.log(paymentIntent);
+  //   // Handle successful payment
+  // }
+
+  
 
   res.status(200).send();
 });
