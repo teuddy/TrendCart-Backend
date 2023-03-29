@@ -48,7 +48,7 @@ router.post('/charge', isAuthenticated, async (req, res) => {
       currency: 'usd',
       metadata: {
         webhookEndpoint: process.env.WEBHOOK_ENDPOINT,
-        user: req.user
+        user: req.user._id,
       }
     });
     
