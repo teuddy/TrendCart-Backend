@@ -36,7 +36,13 @@ db.connect(
 //corts enable just trencarts host
 app.use(cors({origin: 'http://trendcarts.net'}));
 
-app.use(express.json());
+app.use((req, res, next) => {
+  if (req.path === '/v1/payments/webhook') {
+    next();
+  } else {
+    express.json()(req, res, next);
+  }
+});
 // app.use(bodyParser.urlencoded({ extended: false }));
 // app.use(cookieParser());
 // app.use(express.static(path.join(__dirname, "public")));
