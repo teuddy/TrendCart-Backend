@@ -36,6 +36,14 @@
                     "name": "STRIPE_SECRET_KEY",
                     "value": "sk_test_51EumeOE8ngjffme6ZdoFus654l54KCh1szW7IlnoVgLbyerjSy20vH4LRoXkKayYvAtVEQspexm5WMwPk5ar9J4J00TeZlqONC"
 
+                },
+                {
+                    "name": "WEBHOOK_ENDPOINT",
+                    "value": "https://backend.trendcarts.net/v1/payments/webhook"
+                },
+                {
+                    "name": "STRIPE_WEBHOOK_SECRET",
+                    "value": "whsec_0sI7Gl5xf9S2kPECfeS4P0x00xmB5Zfc"
                 }
             ],
             "mountPoints": [],
