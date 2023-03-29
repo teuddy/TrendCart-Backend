@@ -2,7 +2,7 @@
 
 const express = require('express')
 const router = express.Router();
-const {Payment} = require('../../models')
+const {Payment,User} = require('../../models')
 const bodyParser = require('body-parser');
 const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
 const {isAuthenticated,createToken} = require('../../auth/auth')
@@ -100,8 +100,10 @@ router.post('/webhook', bodyParser.raw({ type: 'application/json' }), async (req
               );
               res.status(200).send("updated")
           }else{
+            //find the user that made the payment
+            const paymant = User.findById(paymentIntent.metadata.userId)
               const newPayment = new Payment({
-                user: paymentIntent.metadata.userId,
+                user: paymant._id,
                 amount: paymentIntent.amount,
                 currency: paymentIntent.currency,
                 paymentMethodType: paymentIntent.payment_method_types[0],
