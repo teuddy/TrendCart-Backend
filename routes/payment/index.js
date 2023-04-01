@@ -101,7 +101,7 @@ router.post('/webhook', bodyParser.raw({ type: 'application/json' }), async (req
               res.status(200).send("updated")
           }else{
             //find the user that made the payment
-            const paymant = User.findById(paymentIntent.metadata.userId)
+            const paymant = await User.findById(paymentIntent.metadata.userId)
               const newPayment = new Payment({
                 user: paymant._id,
                 amount: paymentIntent.amount,
