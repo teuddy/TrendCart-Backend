@@ -34,7 +34,11 @@ db.connect(
 
 
 //corts enable just trencarts host
-app.use(cors({origin: 'http://trendcarts.net'}));
+// app.use(cors({origin: 'http://trendcarts.net'}));
+
+//allow cors for all
+app.use(cors());
+
 
 app.use((req, res, next) => {
   if (req.path === '/v1/payments/webhook') {
